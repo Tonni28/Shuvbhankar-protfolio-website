@@ -9,8 +9,9 @@
   --color-sage-deep: #35645a;
   --color-charcoal: #252b32;
   --color-muted: #677481;
-  --font-primary: "Syne", ui-sans-serif, system-ui, sans-serif;
-  --font-secondary: "Aeonik", "Helvetica Neue", Arial, sans-serif;
+  --font-primary: "Aeonik", "Aeonik Fallback", "Avenir Next", "Manrope", sans-serif;
+  --font-secondary: "Aeonik", "Aeonik Fallback", "Avenir Next", "Manrope", sans-serif;
+  --font-display: "Syne", "Syne Fallback", "Avenir Next", "Manrope", sans-serif;
   --font-editorial: var(--font-secondary);
   --font-interface: var(--font-primary);
   --container: 78rem;
@@ -43,7 +44,8 @@ a { color: inherit; text-underline-offset: .22em; }
 .skip-link { position: fixed; z-index: 200; top: 1rem; left: 1rem; padding: .75rem 1rem; background: var(--color-gold); color: var(--color-navy); transform: translateY(-200%); }
 .skip-link:focus { transform: translateY(0); }
 
-h1, h2, h3 { margin: 0; font-family: var(--font-secondary); font-weight: 400; line-height: 1.06; letter-spacing: -.025em; text-wrap: balance; }
+h1, h2 { margin: 0; font-family: var(--font-display); font-weight: 500; line-height: 1.06; letter-spacing: -.025em; text-wrap: balance; }
+h3 { margin: 0; font-family: var(--font-secondary); font-weight: 400; line-height: 1.06; letter-spacing: -.025em; text-wrap: balance; }
 h1 { font-size: clamp(3.2rem, 7.7vw, 7.7rem); }
 h2 { font-size: clamp(2.15rem, 4.8vw, 4.7rem); }
 h3 { font-size: clamp(1.35rem, 2.2vw, 2rem); }
@@ -79,15 +81,15 @@ p, h1, h2, h3 { overflow-wrap: break-word; }
 .nav-toggle { display: none; border: 1px solid rgba(16,35,56,.45); padding: .55rem .75rem; background: transparent; color: inherit; font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; }
 
 .hero-minimal { position: relative; min-height: 0; display: flex; align-items: stretch; overflow: hidden; background: #f6f3ed; color: var(--color-navy); }
-.hero-minimal::after { content: ""; position: absolute; z-index: 3; inset: 0 0 auto; height: 72%; pointer-events: none; background: linear-gradient(rgba(246,243,237,.78), rgba(246,243,237,.48) 56%, rgba(246,243,237,.03)); }
+.hero-minimal::after { content: ""; position: absolute; z-index: 1; inset: 0 0 auto; height: 72%; pointer-events: none; background: linear-gradient(rgba(246,243,237,.78), rgba(246,243,237,.48) 56%, rgba(246,243,237,.03)); }
 .hero-minimal-grid { position: relative; min-height: 0; }
 .hero-minimal-copy { position: relative; z-index: 4; width: 100%; padding-block: clamp(7rem, 13vh, 9rem) 6rem; }
 .hero-story-layout { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(18rem, .7fr); gap: clamp(5rem, 11vw, 10rem); align-items: start; }
 .hero-story-primary { position: relative; z-index: 1; }
 .hero-story-label { margin: 0 0 1.5rem; color: var(--color-sage-deep); font-size: .68rem; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; }
-.hero-story-primary h1 { max-width: 9ch; font-family: Syne, "Syne Fallback", "Helvetica Neue", Arial, sans-serif; font-size: clamp(4rem, 7.3vw, 7rem); font-weight: 500; line-height: .93; letter-spacing: -.06em; text-transform: uppercase; text-shadow: 0 .15rem 1.2rem rgba(246,243,237,.88); opacity: 0; animation: heroRise .85s .22s cubic-bezier(.2,.75,.25,1) forwards; }
+.hero-story-primary h1 { max-width: 9ch; font-family: var(--font-display); font-size: clamp(4rem, 7.3vw, 7rem); font-weight: 500; line-height: .93; letter-spacing: -.06em; text-transform: uppercase; text-shadow: 0 .15rem 1.2rem rgba(246,243,237,.88); opacity: 0; animation: heroRise .85s .22s cubic-bezier(.2,.75,.25,1) forwards; }
 .hero-bridge-list { margin-top: 2.5rem; border-top: 1px solid rgba(16,35,56,.32); }
-.hero-bridge-list p { margin: 0; padding: .75rem 0; border-bottom: 1px solid rgba(16,35,56,.32); color: var(--color-sage-deep); font-family: var(--font-secondary); font-size: clamp(1.15rem, 1.65vw, 1.65rem); font-weight: 500; line-height: 1.15; text-transform: uppercase; opacity: 0; animation: heroRise .7s .35s ease-out forwards; }
+.hero-bridge-list p { margin: 0; padding: .75rem 0; border-bottom: 1px solid rgba(16,35,56,.32); color: var(--color-sage-deep); font-family: var(--font-display); font-size: clamp(1.15rem, 1.65vw, 1.65rem); font-weight: 500; line-height: 1.15; text-transform: uppercase; opacity: 0; animation: heroRise .7s .35s ease-out forwards; }
 .hero-bridge-list p:nth-child(2) { animation-delay: .43s; }
 .hero-bridge-list p:nth-child(3) { animation-delay: .51s; }
 .hero-story-secondary { align-self: end; max-width: 29rem; padding: 0 0 2rem; }
@@ -95,7 +97,8 @@ p, h1, h2, h3 { overflow-wrap: break-word; }
 .hero-story-closing { margin-top: 1.2rem; color: var(--color-navy); font-size: .92rem; }
 .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; margin-top: 2rem; opacity: 0; animation: heroRise .75s .7s ease-out forwards; }
 .hero-portrait-stage { position: absolute; z-index: 2; bottom: 9rem; left: 50%; width: min(46vw, 37rem); margin: 0; transform: translateX(-50%); }
-.hero-portrait-stage > img { width: 100%; max-width: none; object-fit: contain; object-position: bottom; filter: drop-shadow(0 2rem 2.5rem rgba(0,0,0,.24)); }
+.hero-portrait-stage::before { content: ""; position: absolute; z-index: -1; inset: 8% 7% 0; border-radius: 50%; background: radial-gradient(ellipse, rgba(246,243,237,.78) 0%, rgba(246,243,237,.3) 52%, transparent 76%); filter: blur(1.5rem); }
+.hero-portrait-stage > img { width: 100%; max-width: none; object-fit: contain; object-position: bottom; filter: brightness(1.04) contrast(1.06) saturate(1.04) drop-shadow(0 2rem 2.5rem rgba(0,0,0,.16)); -webkit-mask-image: radial-gradient(ellipse 82% 100% at 50% 42%, #000 76%, transparent 100%); mask-image: radial-gradient(ellipse 82% 100% at 50% 42%, #000 76%, transparent 100%); }
 .hero-portrait-stage figcaption { position: absolute; z-index: 3; right: -1rem; bottom: 12rem; writing-mode: vertical-rl; transform: rotate(180deg); }
 .hero-portrait-stage figcaption a { color: rgba(16,35,56,.6); font-size: .55rem; font-weight: 700; letter-spacing: .12em; text-decoration: none; text-transform: uppercase; }
 .hero-minimal .text-link-light { color: var(--color-navy); }
