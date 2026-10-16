@@ -3,20 +3,21 @@
     <div class="hero-minimal-copy">
       <div class="hero-story-layout">
         <div class="hero-story-primary">
-          <p class="hero-story-label">A life in progress</p>
           <h1><%= page.data.heroHeading %></h1>
           <div class="hero-bridge-list"><% page.data.heroBridges.forEach((bridge) => { %><p><%= bridge %></p><% }) %></div>
         </div>
-        <div class="hero-story-secondary">
-          <p class="hero-minimal-lead"><%= page.data.heroLead %></p>
-          <p class="hero-story-closing"><%= page.data.heroClosing %></p>
-          <div class="hero-actions"><a class="button button-gold" href="<%= urlFor('/about/') %>">Read My Story</a><a class="text-link text-link-light" href="<%= urlFor('/advisory/') %>">Explore My Impact <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-story-right">
+          <figure class="hero-portrait-stage">
+            <img src="<%= asset('assets/images/profile/shubhankar-shil-chair-v3.png') %>" width="1024" height="1536" alt="Shubhankar Shil seated in a brown leather chair, smiling toward the camera">
+          </figure>
+          <div class="hero-story-secondary">
+            <p class="hero-minimal-lead"><%= page.data.heroLead %></p>
+            <p class="hero-story-closing"><%= page.data.heroClosing %></p>
+            <div class="hero-actions"><a class="button button-gold" href="<%= urlFor('/about/') %>">Read My Story</a><a class="text-link text-link-light" href="<%= urlFor('/advisory/') %>">Explore My Impact <span aria-hidden="true">↗</span></a></div>
+          </div>
         </div>
       </div>
     </div>
-    <figure class="hero-portrait-stage">
-      <img src="<%= asset('assets/images/profile/shubhankar-shil-chair-v3.png') %>" width="1024" height="1536" alt="Shubhankar Shil seated in a brown leather chair, smiling toward the camera">
-    </figure>
   </div>
 </section>
 
