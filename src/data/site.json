@@ -1,0 +1,19 @@
+{
+  "siteName": "Shubhankar Shil, FCA",
+  "shortName": "Shubhankar Shil",
+  "siteDescription": "Management advisory, governance, research and mentorship perspectives from Shubhankar Shil, FCA.",
+  "siteUrl": "",
+  "basePath": "/",
+  "defaultLocale": "en",
+  "contact": {
+    "email": "",
+    "formAction": ""
+  },
+  "externalLinks": {
+    "jkmns": "https://jkmns.com/",
+    "ulab": "https://www.ulab.edu.bd/mba/faculty/shubhankar-shil"
+  },
+  "analytics": {
+    "enabled": false
+  }
+}

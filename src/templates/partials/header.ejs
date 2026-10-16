@@ -1,0 +1,18 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="<%= urlFor('/') %>" aria-label="Shubhankar Shil, home">
+      <span class="brand-name">SHUBHANKAR SHIL</span><span class="brand-mark">/ FCA</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+      <span class="sr-only">Toggle navigation</span><span class="nav-toggle-label" aria-hidden="true">Menu</span>
+    </button>
+    <nav id="primary-navigation" class="primary-nav" aria-label="Primary">
+      <ul>
+        <% navigation.primary.forEach((item) => { %>
+          <% const isCurrent = item.route === page.route || (item.route === '/insights/' && page.route.startsWith('/insights/')); %>
+          <li><a href="<%= urlFor(item.route) %>"<% if (isCurrent) { %> aria-current="page"<% } %>><%= item.label %></a></li>
+        <% }) %>
+      </ul>
+    </nav>
+  </div>
+</header>

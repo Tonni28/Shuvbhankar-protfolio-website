@@ -1,0 +1,8 @@
+<section class="cta section-dark" aria-labelledby="cta-title">
+  <div class="container cta-inner">
+    <p class="eyebrow eyebrow-light"><%= cta.eyebrow || 'Continue the conversation' %></p>
+    <h2 id="cta-title"><%= cta.title %></h2>
+    <% if (cta.body) { %><p><%= cta.body %></p><% } %>
+    <a class="button button-gold" href="<%= urlFor(cta.route || '/contact/') %>"><%= cta.label || 'Start a Conversation' %></a>
+  </div>
+</section>

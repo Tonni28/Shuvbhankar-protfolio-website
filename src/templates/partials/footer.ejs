@@ -1,0 +1,18 @@
+<footer class="site-footer">
+  <div class="container footer-top">
+    <div class="footer-statement">
+      <p class="eyebrow eyebrow-light">A working philosophy</p>
+      <p class="footer-mission">Exploring how capable people, sound institutions and well-designed systems create lasting value.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer">
+      <div><p class="footer-label">Explore</p><ul><% navigation.footer.explore.forEach((item) => { %><li><a href="<%= urlFor(item.route) %>"><%= item.label %></a></li><% }) %></ul></div>
+      <div><p class="footer-label">Read</p><ul><% navigation.footer.read.forEach((item) => { %><li><a href="<%= urlFor(item.route) %>"><%= item.label %></a></li><% }) %></ul></div>
+      <div><p class="footer-label">Connect</p><ul><li><a href="<%= urlFor('/contact/') %>">Contact</a></li><li><a href="<%= site.externalLinks.ulab %>" target="_blank" rel="noopener noreferrer">ULAB profile</a></li><li><a href="<%= site.externalLinks.jkmns %>" target="_blank" rel="noopener noreferrer">JKMNS</a></li></ul></div>
+    </nav>
+  </div>
+  <div class="container footer-bottom">
+    <p>© <span data-current-year></span> <%= site.shortName %>. All rights reserved.</p>
+    <p class="footer-disclaimer">Views in personal commentary do not necessarily represent associated institutions.</p>
+    <ul><% navigation.footer.legal.forEach((item) => { %><li><a href="<%= urlFor(item.route) %>"><%= item.label %></a></li><% }) %></ul>
+  </div>
+</footer>

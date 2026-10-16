@@ -1,0 +1,27 @@
+{
+  "primary": [
+    { "label": "About", "route": "/about/", "children": [] },
+    { "label": "Advisory", "route": "/advisory/", "children": [] },
+    { "label": "Academia", "route": "/academia/", "children": [] },
+    { "label": "Mentorship", "route": "/mentorship/", "children": [] },
+    { "label": "Insights", "route": "/insights/", "children": [] },
+    { "label": "Contact", "route": "/contact/", "children": [] }
+  ],
+  "footer": {
+    "explore": [
+      { "label": "About", "route": "/about/" },
+      { "label": "Advisory", "route": "/advisory/" },
+      { "label": "Academia", "route": "/academia/" },
+      { "label": "Mentorship", "route": "/mentorship/" }
+    ],
+    "read": [
+      { "label": "Insights", "route": "/insights/" },
+      { "label": "Shubha’s Notebook", "route": "/notebook/" },
+      { "label": "Speaking", "route": "/speaking/" }
+    ],
+    "legal": [
+      { "label": "Accessibility", "route": "/accessibility/" },
+      { "label": "Privacy", "route": "/privacy/" }
+    ]
+  }
+}

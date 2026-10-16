@@ -1,0 +1,11 @@
+<section class="page-hero section-dark"><div class="container page-hero-grid"><div><p class="eyebrow eyebrow-light"><%= page.data.eyebrow %></p><h1><%= page.data.heading %></h1></div><div><p class="hero-lead"><%= page.data.lead %></p><% if (previewDrafts) { %><p class="preview-note">Local editorial preview · Drafts are not public or indexed.</p><% } %></div></div></section>
+<section class="section"><div class="container">
+  <% if (articles.filter((item) => item.type !== 'notebook').length) { %>
+    <div class="filter-bar" data-filter-bar><label class="search-field"><span>Search the archive</span><input type="search" placeholder="Search articles, topics or ideas…" data-article-search></label><fieldset><legend>Explore by theme</legend><div class="filter-options"><% page.data.topics.forEach((topic, index) => { %><label><input type="radio" name="topic" value="<%= topic %>" <%= index === 0 ? 'checked' : '' %>><span><%= topic %></span></label><% }) %></div></fieldset></div>
+    <div class="article-grid" data-article-grid><% articles.filter((item) => item.type !== 'notebook').forEach((article) => { %><%- include('../components/article-card.ejs', { article }) %><% }) %></div>
+    <p class="empty-state" data-empty-state hidden>No articles matched this combination. Try another phrase or explore all topics.</p>
+  <% } else { %>
+    <div class="empty-editorial"><p class="eyebrow">Publication review in progress</p><h2>New insights are being prepared.</h2><p>Draft essays remain private until author approval. In the meantime, explore verified research and publication sources.</p><a class="button button-outline" href="<%= urlFor('/academia/') %>">Research & Publications</a></div>
+  <% } %>
+</div></section>
+<section class="section section-sage"><div class="container"><div class="split-layout section-heading"><div><p class="eyebrow">Research translated into practice</p><h2>Named studies. Clear source links.</h2></div><p>Research explainers connect questions, methods and practical implications while preserving the original publisher context.</p></div><%- include('../components/publication-list.ejs') %></div></section>
