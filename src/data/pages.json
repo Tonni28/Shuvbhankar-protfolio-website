@@ -2,202 +2,448 @@
   {
     "route": "/",
     "template": "home",
-    "title": "Shubhankar Shil, FCA | Advisor, Academic & Mentor",
-    "description": "Explore the management, governance, research and mentorship perspectives of Shubhankar Shil, FCA.",
+    "title": "Shubhankar Shil, FCA | Management Advisor, Academic & Mentor",
+    "description": "The personal website of Shubhankar Shil, FCA. Explore his work in organizational governance, management advisory, higher education, research and mentorship.",
     "navigationLabel": "Home",
     "data": {
-    "heroHeading": "I have spent my life building bridges.",
-    "heroBridges": ["Between knowledge & opportunity.", "Between people & possibilities.", "Between vision & lasting progress."],
-    "heroLead": "From classrooms to boardrooms, from mentoring young minds to advising organizations, my journey has followed one conviction: true success is measured not only by what we achieve, but by what we enable others to become.",
-    "heroClosing": "Every student carries a possibility. Every organization holds potential. And every meaningful transformation begins when we learn to see both.",
-    "eyebrow": "Management advisor / Academic / Mentor",
-      "heading": "Building Organizations. Transforming People. Shaping Futures.",
-      "lead": "Shubhankar Shil, FCA, works across management advisory, organizational governance, higher education and mentorship. His professional interests connect the design of effective institutions with the development of capable people.",
-      "support": "Chartered accountant. University academic. Researcher. Advisor to organizational leaders. Mentor to emerging professionals.",
-      "portraitStatement": "Better systems make progress sustainable. Better learning makes progress possible.",
-      "thesis": "Organizations, classrooms and careers may appear to demand different expertise. In practice, each depends on the quality of the decisions people make, the systems that support those decisions and the values that guide them.",
-      "credentials": [
-        "Fellow Chartered Accountant — ICAB",
-        "MBA in Finance — IBA, University of Dhaka",
-        "More than two decades in higher education",
-        "Former Governance Specialist — World Bank, South Asia Region",
-        "Founder & Managing Partner — JKMNS, Chartered Accountants"
+      "eyebrow": "Shubhankar Shil, FCA",
+      "heading": "I began with numbers. The work has always been about people.",
+      "lead": "I'm Shubhankar. My work has taken me from financial statements to boardroom decisions, from organizational systems to university classrooms. At every stage, I have returned to one question: what helps people and institutions do better work, and keep getting better at it?",
+      "portraitLabel": "Management advisor / Educator / Mentor",
+      "threadHeading": "Some careers follow a straight line. Mine has connected different worlds.",
+      "threadCopy": [
+        "The discipline of accountancy taught me to examine evidence. Governance work showed me that sound decisions depend on more than rules. Teaching made that lesson personal: even the best systems cannot create lasting progress unless people understand them, question them and take responsibility for the choices they make.",
+        "The roles look different from the outside. The questions underneath them are often the same."
       ],
-      "pillars": [
-        { "number": "01", "label": "Advisory & Transformation", "title": "Designing organizations that work.", "body": "From governance and financial management to strategy and operations, how can institutions become more effective, accountable and resilient?", "route": "/advisory/", "cta": "Explore Advisory" },
-        { "number": "02", "label": "Academia & Research", "title": "Connecting knowledge with application.", "body": "Teaching is most valuable when it builds the ability to reason, challenge assumptions and act responsibly.", "route": "/academia/", "cta": "Explore Academia" },
-        { "number": "03", "label": "Mentorship & People", "title": "Helping potential become capability.", "body": "Career success grows through disciplined learning, sound judgment and the confidence to engage with unfamiliar challenges.", "route": "/mentorship/", "cta": "Explore Mentorship" }
+      "threads": [
+        {
+          "number": "01",
+          "label": "Organizations",
+          "title": "Helping institutions work better.",
+          "body": "Strategy becomes meaningful when it changes how an organization makes decisions, uses resources, manages risk and serves the people who depend on it.",
+          "route": "/work/",
+          "anchor": "organizations"
+        },
+        {
+          "number": "02",
+          "label": "Education",
+          "title": "Helping knowledge become judgment.",
+          "body": "A classroom should offer more than the right answer. It should give students the confidence to ask better questions and apply what they know in unfamiliar situations.",
+          "route": "/work/",
+          "anchor": "education"
+        },
+        {
+          "number": "03",
+          "label": "Mentorship",
+          "title": "Helping people see what is possible.",
+          "body": "Mentorship, at its best, helps people develop the habits, choices and judgment to build their own path.",
+          "route": "/work/",
+          "anchor": "mentorship"
+        }
       ],
-      "principles": ["Clarity before complexity", "Evidence before assumption", "Capability before dependency"]
+      "statement": "Good organizations need more than strong systems. They need people who can think, learn and act with care.",
+      "milestones": [
+        {
+          "year": "1996",
+          "title": "The foundation",
+          "body": "Graduated with a BBA from Khulna University."
+        },
+        {
+          "year": "1999",
+          "title": "The discipline of the profession",
+          "body": "Became a Fellow Member of the Institute of Chartered Accountants of Bangladesh, as recorded by ULAB."
+        },
+        {
+          "year": "2002",
+          "title": "A wider management lens",
+          "body": "Completed an MBA in Finance at the Institute of Business Administration, University of Dhaka."
+        },
+        {
+          "year": "2003",
+          "title": "Into the classroom",
+          "body": "Began a documented teaching appointment at Independent University, Bangladesh."
+        },
+        {
+          "year": "2006–2010",
+          "title": "Governance at scale",
+          "body": "Served as a Governance Specialist with the World Bank's South Asia Region."
+        },
+        {
+          "year": "2011 onward",
+          "title": "Teaching and inquiry",
+          "body": "Joined the University of Liberal Arts Bangladesh as an Assistant Professor."
+        },
+        {
+          "year": "Continuing",
+          "title": "Building stronger institutions",
+          "body": "As Founder and Managing Partner of JKMNS, Chartered Accountants, connects professional assurance and advisory disciplines with organizational improvement."
+        }
+      ]
     }
   },
   {
     "route": "/about/",
     "template": "about",
-    "title": "About Shubhankar Shil | Professional Journey & Philosophy",
-    "description": "Discover Shubhankar Shil’s background in chartered accountancy, higher education, governance and advisory work.",
+    "title": "About Shubhankar Shil | A Career Connecting People and Institutions",
+    "description": "The story of Shubhankar Shil, FCA: from accountancy and governance to university teaching, organizational advisory, research and mentorship.",
     "navigationLabel": "About",
     "data": {
-      "eyebrow": "About Shubhankar",
-      "heading": "A career connecting organizational purpose and human possibility.",
-      "lead": "Shubhankar Shil, FCA, is a chartered accountant, management advisor, university academic, researcher and mentor whose work spans institutional systems, organizational performance and learning.",
-      "biography": [
-        "His background brings together professional accountancy, business education and experience in organizational advisory roles. As Founder and Managing Partner of JKMNS, Chartered Accountants, he works at the intersection of management, assurance, regulatory understanding and organizational development.",
-        "Alongside his professional work, Shubhankar has maintained a substantial academic career. His faculty biography at the University of Liberal Arts Bangladesh identifies him as an Assistant Professor with more than two decades of engagement in higher education, including earlier teaching at Independent University, Bangladesh.",
-        "He previously held a governance role with the World Bank’s South Asia Region. This combination of organizational practice and higher education informs his interest in leadership, accountability, management systems and building institutions that can sustain their own performance.",
-        "Mentorship is another important dimension of his work. The objective is not simply to help a learner reach the next milestone, but to strengthen the judgment and capacity needed for the milestones beyond it."
+      "eyebrow": "My story",
+      "heading": "A career that began with accounts. A purpose shaped by people.",
+      "lead": "I have worked with financial information, management decisions, institutional systems and students preparing to enter the world. These experiences may appear to belong to separate careers. Over time, I have come to see a common purpose: helping people make sound decisions within institutions that deserve their trust.",
+      "chapters": [
+        {
+          "number": "01",
+          "kicker": "The discipline of asking why",
+          "title": "Before a decision is made, someone needs to understand the numbers.",
+          "paragraphs": [
+            "Accountancy provides a rigorous starting point. It requires attention to evidence, consistency and responsibility. A number on a page is rarely the end of the story.",
+            "My formal education in business and finance developed that foundation: a BBA at Khulna University in 1996, Fellow membership of the Institute of Chartered Accountants of Bangladesh in 1999, and an MBA in Finance from IBA, University of Dhaka, in 2002."
+          ]
+        },
+        {
+          "number": "02",
+          "kicker": "From records to institutions",
+          "title": "An institution can comply with the rules and still struggle to perform.",
+          "paragraphs": [
+            "Who has the authority to decide? What information reaches them? How is dissent handled? These are governance questions, but also questions about culture, management and leadership.",
+            "From July 2006 to October 2010, I served as a Governance Specialist with the World Bank's South Asia Region. The experience reinforced the importance of capability, accountability and practical implementation."
+          ]
+        },
+        {
+          "number": "03",
+          "kicker": "What teaching changes",
+          "title": "In a classroom, the quality of a question can matter more than the speed of an answer.",
+          "paragraphs": [
+            "It is not enough to understand a subject. You must make it understandable without making it superficial, and encourage confidence without rewarding certainty that has not been earned.",
+            "My documented university teaching includes Independent University, Bangladesh, beginning in July 2003, and ULAB beginning in January 2011."
+          ]
+        },
+        {
+          "number": "04",
+          "kicker": "Learning beyond examinations",
+          "title": "Education should leave people with more than answers they can remember.",
+          "paragraphs": [
+            "I am interested in active learning, outcome-based education, curriculum and assessment design, and the practical relationship between universities and professional life.",
+            "Students need space to be wrong, revise an argument, work with others and recognize the limits of what they know."
+          ]
+        },
+        {
+          "number": "05",
+          "kicker": "Organizations that keep learning",
+          "title": "An organization, too, can become trapped by what once made it successful.",
+          "paragraphs": [
+            "Processes designed for a small team may fail when the organization grows. New software can accelerate work without improving its quality.",
+            "Through JKMNS, Chartered Accountants, I remain engaged with organizations seeking stronger systems and more dependable performance."
+          ]
+        },
+        {
+          "number": "06",
+          "kicker": "The value of mentorship",
+          "title": "Potential is not a guarantee. It is an invitation to prepare.",
+          "paragraphs": [
+            "Mentorship should not replace another person's judgment. It should help them ask better questions, identify opportunities and take ownership of their choices."
+          ]
+        },
+        {
+          "number": "07",
+          "kicker": "What stays constant",
+          "title": "Titles describe roles. They do not fully describe the work.",
+          "paragraphs": [
+            "A career is also shaped by quieter choices: whether to listen carefully, acknowledge uncertainty, build something that can continue, and make time for people still finding their way."
+          ]
+        }
       ],
-      "values": [
-        { "title": "Institutional clarity", "body": "Make responsibilities, decisions and information understandable." },
-        { "title": "Professional integrity", "body": "Place accuracy and accountability ahead of expedient appearances." },
-        { "title": "Practical learning", "body": "Connect concepts to real situations and measurable decisions." },
-        { "title": "Human development", "body": "See capability as an enduring asset." },
-        { "title": "Responsible innovation", "body": "Use technology to strengthen, not obscure, judgment." }
+      "credentials": [
+        "Fellow Chartered Accountant (FCA), Institute of Chartered Accountants of Bangladesh — 1999, according to ULAB",
+        "MBA in Finance, Institute of Business Administration, University of Dhaka — 2002",
+        "BBA, Khulna University — 1996",
+        "Assistant Professor, ULAB — from 15 January 2011, per ULAB",
+        "Governance Specialist, World Bank South Asia Region — 22 July 2006 to 17 October 2010, per ULAB",
+        "Founder and Managing Partner, JKMNS, Chartered Accountants — per JKMNS"
       ],
-      "qualifications": ["Fellow Chartered Accountant (ICAB)", "MBA in Finance — IBA, University of Dhaka", "BBA — Khulna University", "LLB — as listed in the JKMNS professional profile"],
-      "roles": ["Founder & Managing Partner — JKMNS", "Assistant Professor — University of Liberal Arts Bangladesh", "Former Lecturer — Independent University, Bangladesh", "Former Governance Specialist — World Bank South Asia Region", "Documented facilitator — IFC banking and financial institution board leadership program"]
-    }
-  },
-  {
-    "route": "/advisory/",
-    "template": "advisory",
-    "title": "Advisory & Impact | Shubhankar Shil",
-    "description": "Explore approaches to strategy, governance, management systems and sustainable organizational performance.",
-    "navigationLabel": "Advisory",
-    "data": {
-      "eyebrow": "Organizational advisory",
-      "heading": "Helping institutions become clearer, stronger and more effective.",
-      "lead": "Sustainable performance depends on coherent strategy, accountable governance, reliable management information and people who can execute.",
-      "intro": "A good recommendation is not merely technically correct. It must address the organization’s real constraints, create ownership and improve the decisions made after the advisor leaves.",
-      "practices": [
-        { "title": "Strategy and Operating Models", "body": "Translate institutional ambition into clear priorities, decision rights, reporting arrangements and achievable operating rhythms." },
-        { "title": "Governance and Accountability", "body": "Strengthen the connection between formal governance, useful information and actual organizational behavior." },
-        { "title": "Finance and Performance Management", "body": "Bring financial discipline into operational decisions through management information, indicators and analytical thinking." },
-        { "title": "Organizational Transformation", "body": "Assess bottlenecks, overlapping functions and complexity, then develop staged improvements teams can sustain." },
-        { "title": "Systems and Digital Integration", "body": "Connect business requirements to technology adoption, workflows, data quality, controls and user needs." },
-        { "title": "Leadership and Institutional Capacity", "body": "Strengthen management capability through structured learning, facilitated dialogue and decision frameworks." },
-        { "title": "Development and Public-Interest Advisory", "body": "Apply governance, institutional analysis and financial management thinking where transparency and coordination matter." },
-        { "title": "Growth, Entrepreneurship and Succession", "body": "Support strategic thinking around growth, management readiness, family enterprise and institutional continuity." }
+      "interests": [
+        "Corporate governance and accountability",
+        "Strategy and operations",
+        "Finance and reporting",
+        "Family business and succession",
+        "Management information systems",
+        "Technology-enabled organizations",
+        "Outcome-based education",
+        "Curriculum and assessment design"
       ],
-      "process": [
-        { "number": "01", "title": "Understand the problem", "body": "Clarify the decision, stakeholders, constraints, baseline and desired results." },
-        { "number": "02", "title": "Diagnose the system", "body": "Examine governance, workflows, incentives, information and execution bottlenecks." },
-        { "number": "03", "title": "Design the response", "body": "Balance technical soundness, organizational capacity and implementation risk." },
-        { "number": "04", "title": "Enable execution", "body": "Translate recommendations into owners, actions, sequencing and feedback loops." },
-        { "number": "05", "title": "Learn and strengthen", "body": "Measure progress, document lessons and embed capability." }
-      ],
-      "frameworks": ["Reducing Management Bottlenecks", "Designing Decision-Ready Management Information", "Aligning Digital Tools with Operational Controls"]
-    }
-  },
-  {
-    "route": "/academia/",
-    "template": "academia",
-    "title": "Academia & Research | Shubhankar Shil",
-    "description": "Explore teaching interests, research themes and selected academic publications by Shubhankar Shil.",
-    "navigationLabel": "Academia",
-    "data": {
-      "eyebrow": "Academia & Research",
-      "heading": "Developing knowledge that can be questioned, tested and applied.",
-      "lead": "Education must do more than transmit information. It should build analytical judgment, ethical responsibility and the ability to make sense of complex business and institutional problems.",
-      "philosophy": ["In a changing economy, remembering a framework is useful; knowing when it applies is more valuable. Effective teaching brings theory into contact with lived situations, competing evidence and imperfect choices.", "This approach values participatory learning, case-based dialogue, thoughtfully designed assessments and explicit learning outcomes."],
-      "clusters": ["Management and organizational strategy", "Accounting, finance and reporting", "Business, law and entrepreneurship", "Technology and systems", "Educational quality"],
-      "themes": [
-        { "title": "Governance and board performance", "body": "How governing arrangements relate to accountability, organizational control and firm outcomes." },
-        { "title": "Quality of earnings and disclosure", "body": "How accounting policies and reporting choices shape the usefulness of financial information." },
-        { "title": "Finance and institutions", "body": "How credit ratings, banking, financing structures and capital decisions affect enterprises and markets." },
-        { "title": "Family business and succession", "body": "How ownership, control and growth ambitions influence institutional decisions." },
-        { "title": "Emerging technology and management", "body": "How changing technical capabilities affect organizations and management practices." }
+      "recognition": [
+        "HSBC Scholarship for best performance in the MBA program at IBA",
+        "Shaw Wallace (UK) Scholarship for chartered accountancy studies",
+        "University Merit Scholarship at Khulna University"
       ]
     }
   },
   {
-    "route": "/mentorship/",
-    "template": "mentorship",
-    "title": "Mentorship & Education | Shubhankar Shil",
-    "description": "Practical thinking on learning, career readiness and developing professional judgment.",
-    "navigationLabel": "Mentorship",
+    "route": "/work/",
+    "template": "work",
+    "title": "Work & Practice | Shubhankar Shil, FCA",
+    "description": "Explore Shubhankar Shil's work across organizational advisory, governance, academic teaching, research and mentorship.",
+    "navigationLabel": "Work",
     "data": {
-      "eyebrow": "Mentorship & Education",
-      "heading": "Teaching knowledge. Developing judgment. Expanding possibility.",
-      "lead": "Meaningful mentorship helps learners grow the capacity to decide, adapt and contribute—rather than depend on someone else’s answers.",
-      "philosophy": ["There is no single formula for an effective career. Individual circumstances, interests and ambitions differ. But disciplined learning, constructive feedback, communication and the ability to work through ambiguity consistently improve the quality of choices.", "A mentor can provide a framework, ask difficult questions and help a learner see beyond an immediate decision. Responsibility for the journey remains with the learner."],
-      "pathways": [
-        { "stage": "Foundations", "audience": "School-age learners", "body": "Build curiosity, communication, study habits, confidence and the ability to ask useful questions." },
-        { "stage": "Direction", "audience": "University students", "body": "Connect academic knowledge with practical work, ethical judgment and informed career exploration." },
-        { "stage": "Transition", "audience": "Early-career professionals", "body": "Strengthen problem-solving, workplace habits, portfolio evidence and interview readiness." },
-        { "stage": "Leadership", "audience": "Emerging managers and founders", "body": "Develop systems thinking, financial literacy, team management and responsible decisions." }
+      "eyebrow": "My work",
+      "heading": "Different settings. The same responsibility to think carefully.",
+      "lead": "Some challenges begin in a boardroom. Some begin in a classroom. Others appear when a business has grown faster than its systems or when a young person is uncertain about the next step. The setting changes, but good work still requires listening, evidence, judgment and practical follow-through.",
+      "organizations": [
+        [
+          "Strategy and operational design",
+          "Turn broad ambitions into priorities, accountable roles and operating routines that people can use."
+        ],
+        [
+          "Governance and institutional accountability",
+          "Examine how oversight, reporting, controls and incentives influence decisions."
+        ],
+        [
+          "Financial discipline and business performance",
+          "Use reliable financial information to understand cost, risk, sustainability and the consequences of choices."
+        ],
+        [
+          "Growth, succession and transformation",
+          "Examine the structures, leadership responsibilities and management practices needed for the next stage."
+        ],
+        [
+          "Systems and technology",
+          "Treat technology as part of operational redesign, not a substitute for understanding the underlying work."
+        ]
       ],
-      "resources": ["Build a Meaningful Portfolio", "How to Evaluate a Graduate Program", "Preparing for Case-Based Interviews", "A Personal Learning Plan", "Questions to Ask Before Choosing a Career Path"]
+      "education": [
+        [
+          "Understand before you memorize.",
+          "Start with concepts, then test them against realistic situations."
+        ],
+        [
+          "Explain your reasoning.",
+          "An answer becomes more valuable when its assumptions and limitations are visible."
+        ],
+        [
+          "Practice the work.",
+          "Bring judgment, communication and responsibility into the learning experience."
+        ],
+        [
+          "Keep learning after assessment.",
+          "The point of education is a capacity that travels beyond a course."
+        ]
+      ],
+      "mentoringThemes": [
+        "Career readiness and professional judgment",
+        "Transitions from university to work",
+        "Financial and business literacy",
+        "Ethical leadership",
+        "Navigating professional qualifications",
+        "Maintaining curiosity throughout a career"
+      ]
+    }
+  },
+  {
+    "route": "/blogs/",
+    "template": "blogs",
+    "title": "Blogs & Field Notes | Shubhankar Shil",
+    "description": "Personal writing from Shubhankar Shil on teaching, careers, people, decisions, work and lessons that continue beyond the classroom.",
+    "navigationLabel": "Blogs",
+    "data": {
+      "eyebrow": "Field notes / Blogs",
+      "heading": "Some lessons do not arrive as a report.",
+      "lead": "They come from a question worth thinking about, an assumption that stops making sense, a conversation that changes how we see a problem, or a familiar task viewed differently. This is where I write about those lessons.",
+      "categories": [
+        "All",
+        "Lessons from the classroom",
+        "Notes to young professionals",
+        "People and institutions",
+        "Books, questions and ideas"
+      ]
     }
   },
   {
     "route": "/insights/",
     "template": "insights",
-    "title": "Insights | Strategy, Governance, Finance & Education",
-    "description": "Research-informed commentary and frameworks for leaders, educators and emerging professionals.",
+    "title": "Insights on Governance, Management & Education | Shubhankar Shil",
+    "description": "Essays and research-informed analysis on governance, organizational design, finance, technology, education and institutional performance.",
     "navigationLabel": "Insights",
-    "data": { "eyebrow": "Ideas, research & perspectives", "heading": "Better questions. Better decisions.", "lead": "Analysis and reflection across strategy, organizational systems, governance, finance, education, technology and the future of work.", "topics": ["All", "Strategy & Organizational Excellence", "Governance & Accountability", "Finance, Accounting & Economics", "Education & Learning", "Career & Learning"] }
-  },
-  {
-    "route": "/notebook/",
-    "template": "notebook",
-    "title": "Shubha’s Notebook | Reflections on Learning & Work",
-    "description": "Letters and reflections on education, professional growth, responsibility and meaningful careers.",
-    "navigationLabel": "Notebook",
-    "data": { "eyebrow": "Letters, reflections & lessons", "heading": "Shubha’s Notebook.", "lead": "Some lessons begin in a classroom. Others emerge from a meeting, a difficult question, a book or a conversation with a young professional.", "intro": "Here, the emphasis is not on presenting a final answer to every problem. It is on examining the questions that shape learning, work and responsibility.", "topics": ["Lessons from the Classroom", "Notes to Young Professionals", "Leadership Reflections", "Books & Ideas", "Questions Worth Asking", "Life, Learning & Purpose"] }
-  },
-  {
-    "route": "/speaking/",
-    "template": "speaking",
-    "title": "Speaking & Knowledge Sharing | Shubhankar Shil",
-    "description": "Explore proposed session topics and invite Shubhankar Shil for academic and professional events.",
-    "navigationLabel": "Speaking",
     "data": {
-      "eyebrow": "Speaking & knowledge sharing",
-      "heading": "Conversations that challenge assumptions and improve practice.",
-      "lead": "Lectures, executive learning sessions, moderated discussions and professional forums connect organizational knowledge with real challenges and diverse perspectives.",
+      "eyebrow": "Insights / Research-informed writing",
+      "heading": "The questions behind better decisions.",
+      "lead": "Good management requires more than confidence. It requires understanding the evidence, noticing what a system rewards, asking whose perspective is missing and being willing to revise an approach when the facts change.",
       "topics": [
-        { "title": "Designing Organizations That Outperform Their Complexity", "body": "How unclear roles, duplicated processes and poor information flow weaken performance." },
-        { "title": "Corporate Governance Beyond Compliance", "body": "A decision-oriented discussion of board effectiveness, accountability, incentives and reporting." },
-        { "title": "Teaching for Judgment in an AI-Enabled World", "body": "Why higher education must combine disciplinary knowledge with critical analysis and authentic assessment." },
-        { "title": "From University to Professional Readiness", "body": "Building demonstrable competence, workplace habits, communication and informed career choices." },
-        { "title": "Financial Literacy for Responsible Leadership", "body": "Reading organizational performance, assessing trade-offs and asking better financial questions." },
-        { "title": "Technology as a Management System", "body": "Aligning process redesign, data quality, controls and adoption with digital investment." }
+        "All",
+        "Governance & accountability",
+        "Strategy & operations",
+        "Finance & markets",
+        "Technology & management systems",
+        "Education & human capability"
       ]
     }
   },
   {
     "route": "/contact/",
     "template": "contact",
-    "title": "Contact | Shubhankar Shil",
-    "description": "Inquire about advisory, speaking, academic collaboration, research or learning resources.",
+    "title": "Contact Shubhankar Shil | Advisory, Academic & Speaking Inquiries",
+    "description": "Contact Shubhankar Shil for relevant inquiries about management advisory, academic collaboration, research, speaking and mentorship.",
     "navigationLabel": "Contact",
-    "data": { "eyebrow": "Connect", "heading": "Start with the question that matters.", "lead": "Whether you are exploring an organizational challenge, proposing a research collaboration, inviting a speaker or seeking a learning resource, a clear initial message will help identify the appropriate next step.", "categories": ["Advisory", "Academic", "Research", "Speaking", "Mentorship", "Media", "Other"] }
+    "data": {
+      "eyebrow": "Contact",
+      "heading": "A good conversation usually begins with a good question.",
+      "lead": "If you are working through a difficult organizational issue, developing an educational initiative, inviting a speaker or exploring a research collaboration, I would be interested in understanding what you are trying to achieve.",
+      "routes": [
+        [
+          "Organizations & advisory",
+          "Governance, management systems, financial and operational improvement, growth and transformation."
+        ],
+        [
+          "Universities & research",
+          "Guest sessions, curriculum conversations, research partnerships and education quality."
+        ],
+        [
+          "Speaking & events",
+          "Lectures, executive conversations, conferences and focused professional learning sessions."
+        ],
+        [
+          "Mentorship & career guidance",
+          "Structured initiatives, group learning programs or suitable educational collaborations."
+        ]
+      ],
+      "categories": [
+        "Advisory / Organizational Work",
+        "Academic Collaboration",
+        "Research",
+        "Speaking or Event",
+        "Mentorship Initiative",
+        "Media or Other"
+      ]
+    }
+  },
+  {
+    "route": "/insights/research/",
+    "template": "research",
+    "title": "Research & Publications | Shubhankar Shil, FCA",
+    "description": "Selected academic papers and conference contributions by Shubhankar Shil on governance, finance, credit ratings, accounting and business in Bangladesh.",
+    "navigationLabel": "Research",
+    "data": {
+      "eyebrow": "Research & publications",
+      "heading": "Research begins when the familiar explanation is no longer enough.",
+      "lead": "Academic inquiry gives us a disciplined way to examine governance, accounting, finance, markets and the institutional conditions that shape business behavior.",
+      "conferences": [
+        "2024 — Control and Capital: Bangladeshi Family Firms' Attitude to Raise External Capital — India Finance Conference, IIM Raipur",
+        "2024 — An Exploratory Study on Emerging Technologies in Bangladeshi Industries — IIM Shillong",
+        "2024 — Independent and Nonexecutive Directors, Corporate Governance and Firm Performance in Bangladesh — University College of Bahrain",
+        "2016 — Rural Marketing in Bangladesh — University of Miami",
+        "2015 — Clash in Corporate Rating — India Finance Conference, IIM Calcutta",
+        "2014 — A Financial Diagnosis into the Cost of Capital, Capital Structure and Firms' Performances — India Finance Conference, IIM Bangalore"
+      ]
+    }
+  },
+  {
+    "route": "/speaking/",
+    "template": "speaking",
+    "title": "Speaking & Collaboration | Shubhankar Shil",
+    "description": "Proposed discussion themes in governance, management, organizational transformation, higher education and professional development.",
+    "navigationLabel": "Speaking",
+    "data": {
+      "eyebrow": "Speaking & collaboration",
+      "heading": "The most useful talks often leave a room with better questions.",
+      "lead": "A lecture, professional discussion or workshop should do more than deliver information. It should help participants recognize a problem more clearly, challenge an assumption and take something practical back to their work.",
+      "topics": [
+        [
+          "Governance beyond compliance",
+          "Connect formal responsibilities with everyday reporting, decision-making and accountability."
+        ],
+        [
+          "Designing organizations that do not depend on heroes",
+          "How decision rights, information flows, systems and leadership behavior influence resilience."
+        ],
+        [
+          "The university-to-work transition",
+          "Why graduates need knowledge, communication, application, comfort with uncertainty and feedback."
+        ],
+        [
+          "Technology and the discipline of process design",
+          "What managers should understand before automating work."
+        ],
+        [
+          "Family businesses and institutional continuity",
+          "The links among succession, governance, professional management and access to capital."
+        ],
+        [
+          "Teaching judgment in a changing economy",
+          "How business education can assess reasoning, application and responsibility."
+        ]
+      ],
+      "formats": [
+        "Keynote conversation",
+        "Moderated discussion",
+        "Faculty development session",
+        "Executive seminar",
+        "Student masterclass",
+        "Panel participation",
+        "Collaborative workshop"
+      ]
+    }
+  },
+  {
+    "route": "/privacy/",
+    "template": "support",
+    "title": "Privacy Notice | Shubhankar Shil",
+    "description": "Privacy information for the personal website of Shubhankar Shil.",
+    "navigationLabel": "Privacy",
+    "noindex": true,
+    "data": {
+      "eyebrow": "Site note",
+      "heading": "Privacy Notice",
+      "notice": "Draft template — complete before public launch",
+      "paragraphs": [
+        "This website does not currently send or store contact-form submissions because a form service has not been configured.",
+        "The final notice must identify the actual hosting provider, analytics, email service, data recipients, retention periods and contact route before the site collects personal information."
+      ]
+    }
+  },
+  {
+    "route": "/editorial-policy/",
+    "template": "support",
+    "title": "Editorial & Attribution Policy | Shubhankar Shil",
+    "description": "How personal writing, research, sources and corrections are handled.",
+    "navigationLabel": "Editorial policy",
+    "data": {
+      "eyebrow": "Editorial standard",
+      "heading": "Editorial & Attribution Policy",
+      "paragraphs": [
+        "Blogs are reflective pieces. Insights distinguish argument from published research and other evidence they reference. Illustrative or hypothetical cases are identified.",
+        "Academic papers link to their publisher or institutional repository where available. Substantive errors will be corrected transparently. Unapproved client, student and testimonial information will not be disclosed."
+      ]
+    }
   },
   {
     "route": "/accessibility/",
     "template": "support",
     "title": "Accessibility | Shubhankar Shil",
-    "description": "Accessibility approach for the Shubhankar Shil website.",
+    "description": "Accessibility approach for the personal website of Shubhankar Shil.",
     "navigationLabel": "Accessibility",
-    "data": { "eyebrow": "Accessibility", "heading": "Access to information should be straightforward.", "paragraphs": ["This website is designed with attention to readable contrast, semantic structure, keyboard access, responsive layouts and meaningful alternatives for visual content.", "If any content or interaction is difficult to use, please report the issue through the contact page and identify the page and the difficulty encountered."] }
-  },
-  {
-    "route": "/privacy/",
-    "template": "support",
-    "title": "Privacy | Shubhankar Shil",
-    "description": "Privacy notice preparation for the Shubhankar Shil website.",
-    "navigationLabel": "Privacy",
-    "noindex": true,
-    "data": { "eyebrow": "Privacy", "heading": "Respecting your information.", "notice": "Legal review required before launch", "paragraphs": ["Contact forms and optional newsletter subscriptions require limited personal information to process requested communication. This local preview does not submit or store form data.", "A complete notice must be reviewed against the actual hosting, email, analytics and form-processing services before public deployment."] }
+    "data": {
+      "eyebrow": "Access for everyone",
+      "heading": "Accessibility",
+      "paragraphs": [
+        "This site is designed for keyboard navigation, clear focus states, responsive text, semantic headings and reduced-motion preferences.",
+        "If you encounter an access barrier, please use the contact page and describe the page and problem."
+      ]
+    }
   },
   {
     "route": "/not-found/",
     "template": "support",
-    "title": "Page not found | Shubhankar Shil",
+    "title": "Page Not Found | Shubhankar Shil",
     "description": "The requested page could not be found.",
     "navigationLabel": "",
     "noindex": true,
-    "data": { "eyebrow": "404", "heading": "This page is not where we expected it to be.", "paragraphs": ["The link may have changed, or the page may no longer be available. You can return home or continue exploring the published ideas and resources."], "actions": true }
+    "data": {
+      "eyebrow": "404",
+      "heading": "This page has taken a different path.",
+      "paragraphs": [
+        "The address may have changed, or the page may no longer be here. The story continues elsewhere."
+      ],
+      "actions": true
+    }
   }
 ]

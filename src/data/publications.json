@@ -1,5 +1,74 @@
 [
-  { "year": 2024, "title": "Are Independent and Non-Executive Directors Improving Corporate Governance and Firm Performance? An Evince from Bangladesh", "authors": "Ahmad, A. F. W., & Shil, S.", "outlet": "Finance and Law in the Metaverse World, pp. 45–57", "url": "https://doi.org/10.1007/978-3-031-67547-8_5", "verified": true },
-  { "year": 2015, "title": "An Exploratory Study on Bangladesh Emerging Credit Rating Industry", "authors": "Shil, S.", "outlet": "Independent Business Review", "url": "https://ar.iub.edu.bd/handle/11348/313", "verified": true },
-  { "year": 2007, "title": "Examination of Profitability in the Context of Bangladesh Banking Industry", "authors": "Shil, S., Haque, A. J., & Jahangir, N.", "outlet": "ABAC Journal", "url": "https://assumptionjournal.au.edu/index.php/abacjournal/article/view/577", "verified": true }
+  {
+    "year": 2024,
+    "title": "Are Independent and Non-Executive Directors Improving Corporate Governance and Firm Performance? An Evince from Bangladesh",
+    "authors": "Abul Fazal Wazir Ahmad and Shubhankar Shil",
+    "outlet": "Finance and Law in the Metaverse World, Springer, pp. 45–57",
+    "type": "Book chapter",
+    "url": "https://doi.org/10.1007/978-3-031-67547-8_5",
+    "featured": true
+  },
+  {
+    "year": 2015,
+    "title": "An Exploratory Study on Bangladesh's Emerging Credit Rating Industry",
+    "authors": "Shubhankar Shil",
+    "outlet": "Independent Business Review, 8(1–2)",
+    "type": "Journal article",
+    "url": "https://ar.iub.edu.bd/xmlui/handle/11348/313",
+    "featured": true
+  },
+  {
+    "year": 2015,
+    "title": "Positive Accounting Theory and Changes in Accounting Principles: An Exploratory Inquiry into Bangladeshi Listed Companies",
+    "authors": "Shubhankar Shil",
+    "outlet": "Independent Business Review, 7(2)",
+    "type": "Journal article",
+    "url": "https://usb.ulab.edu.bd/faculty/shubhankar-shil",
+    "featured": true
+  },
+  {
+    "year": 2013,
+    "title": "Protecting Existing and Prospective Investors and Role of Internal Auditors",
+    "authors": "Shubhankar Shil and Shoaib Ahmed",
+    "outlet": "Independent Business Review",
+    "type": "Journal article",
+    "url": "https://usb.ulab.edu.bd/faculty/shubhankar-shil",
+    "featured": false
+  },
+  {
+    "year": 2008,
+    "title": "Factors Influencing Customers' Willingness to Buy in the Context of PC Peripherals",
+    "authors": "Shubhankar Shil, Nadim Jahangir and Noorjahan Parvez",
+    "outlet": "Journal of Behavioural Sciences, University of the Punjab",
+    "type": "Journal article",
+    "url": "https://usb.ulab.edu.bd/faculty/shubhankar-shil",
+    "featured": false
+  },
+  {
+    "year": 2007,
+    "title": "Examination of Profitability in the Context of Bangladesh Banking Industry",
+    "authors": "Shubhankar Shil, Amlan J. Haque and Nadim Jahangir",
+    "outlet": "ABAC Journal",
+    "type": "Journal article",
+    "url": "https://assumptionjournal.au.edu/index.php/abacjournal/article/view/577",
+    "featured": false
+  },
+  {
+    "year": 2007,
+    "title": "Information Search on Banking Products and Services",
+    "authors": "Shubhankar Shil and Nadim Jahangir",
+    "outlet": "Udyog Pragati, 31(3)",
+    "type": "Journal article",
+    "url": "https://usb.ulab.edu.bd/faculty/shubhankar-shil",
+    "featured": false
+  },
+  {
+    "year": 2006,
+    "title": "Village Phone: Expectation vs. Execution",
+    "authors": "Shubhankar Shil and Amlan J. Haque",
+    "outlet": "The Journal of Social Studies, 112(4), as listed by ULAB",
+    "type": "Journal article",
+    "url": "https://usb.ulab.edu.bd/faculty/shubhankar-shil",
+    "featured": false
+  }
 ]

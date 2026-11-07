@@ -31,7 +31,7 @@ export async function buildSite({ silent = false, previewDrafts = process.env.SI
   ]);
 
   const visibleArticles = articles.filter((article) => previewDrafts || article.status === 'published');
-  const articlePages = visibleArticles.map((article) => ({
+  const articlePages = articles.map((article) => ({
     route: article.route,
     template: 'article',
     title: article.title,
@@ -101,6 +101,7 @@ export async function buildSite({ silent = false, previewDrafts = process.env.SI
 
   if (site.siteUrl) {
     const sitemap = pages
+      .filter((page) => !page.noindex)
       .map((page) => `  <url><loc>${helpers.absoluteUrl(page.route)}</loc></url>`)
       .join('\n');
     await writeFile(

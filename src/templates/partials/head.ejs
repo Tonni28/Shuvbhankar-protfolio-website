@@ -2,21 +2,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><%= page.title %></title>
 <meta name="description" content="<%= page.description %>">
-<meta property="og:title" content="<%= page.title %> | <%= site.siteName %>">
+<meta property="og:title" content="<%= page.title %>">
 <meta property="og:description" content="<%= page.description %>">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary">
+<meta property="og:type" content="<%= page.template === 'article' ? 'article' : 'website' %>">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#102338">
 <% if (page.noindex) { %><meta name="robots" content="noindex, nofollow"><% } %>
+<% if (absoluteUrl(page.route)) { %><link rel="canonical" href="<%= absoluteUrl(page.route) %>"><meta property="og:url" content="<%= absoluteUrl(page.route) %>"><% } %>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<% if (absoluteUrl(page.route)) { %>
-<link rel="canonical" href="<%= absoluteUrl(page.route) %>">
-<meta property="og:url" content="<%= absoluteUrl(page.route) %>">
-<% } %>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 <link rel="icon" href="<%= asset('favicon.svg') %>" type="image/svg+xml">
 <link rel="stylesheet" href="<%= asset('assets/css/main.css') %>">
 <% if (page.route === '/') { %>
-<script type="application/ld+json"><%- JSON.stringify({ '@context': 'https://schema.org', '@type': 'Person', name: 'Shubhankar Shil', honorificSuffix: 'FCA', jobTitle: ['Management Advisor', 'Academic', 'Researcher'], affiliation: [{ '@type': 'Organization', name: 'JKMNS, Chartered Accountants' }, { '@type': 'CollegeOrUniversity', name: 'University of Liberal Arts Bangladesh' }] }) %></script>
+<script type="application/ld+json"><%- JSON.stringify({'@context':'https://schema.org','@type':'Person',name:'Shubhankar Shil',honorificSuffix:'FCA',description:site.siteDescription,jobTitle:['Management Advisor','University Educator','Researcher'],affiliation:[{'@type':'Organization',name:'JKMNS, Chartered Accountants'},{'@type':'CollegeOrUniversity',name:'University of Liberal Arts Bangladesh'}]}) %></script>
 <% } %>
+<% if (page.template === 'article') { const article = page.data.article; %>
+<script type="application/ld+json"><%- JSON.stringify({'@context':'https://schema.org','@type':'Article',headline:article.title,description:article.description,author:{'@type':'Person',name:'Shubhankar Shil'},dateModified:article.dateUpdated || undefined}) %></script>
+<% } %>
+

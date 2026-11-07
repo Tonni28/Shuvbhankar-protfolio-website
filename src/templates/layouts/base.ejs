@@ -1,16 +1,13 @@
 <!doctype html>
 <html lang="<%= site.defaultLocale %>">
-  <head>
-    <%- include('../partials/head.ejs') %>
-  </head>
+  <head><%- include('../partials/head.ejs') %></head>
   <body data-page="<%= page.template %>">
     <% if (page.template === 'article') { %><div class="reading-progress" data-reading-progress aria-hidden="true"></div><% } %>
     <a class="skip-link" href="#main-content">Skip to content</a>
     <%- include('../partials/header.ejs') %>
-    <main id="main-content">
-      <%- body %>
-    </main>
+    <main id="main-content"><%- body %></main>
     <%- include('../partials/footer.ejs') %>
     <%- include('../partials/scripts.ejs') %>
   </body>
 </html>
+

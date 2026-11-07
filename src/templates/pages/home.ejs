@@ -1,34 +1,26 @@
-<section class="hero-minimal section-dark" data-hero>
-  <div class="container hero-minimal-grid">
-    <div class="hero-minimal-copy">
-      <div class="hero-story-layout">
-        <div class="hero-story-primary">
-          <h1><%= page.data.heroHeading %></h1>
-          <div class="hero-bridge-list"><% page.data.heroBridges.forEach((bridge) => { %><p><%= bridge %></p><% }) %></div>
-        </div>
-        <div class="hero-story-right">
-          <figure class="hero-portrait-stage">
-            <img src="<%= asset('assets/images/profile/shubhankar-shil-chair-v3.png') %>" width="1024" height="1536" alt="Shubhankar Shil seated in a brown leather chair, smiling toward the camera">
-          </figure>
-          <div class="hero-story-secondary">
-            <p class="hero-minimal-lead"><%= page.data.heroLead %></p>
-            <p class="hero-story-closing"><%= page.data.heroClosing %></p>
-            <div class="hero-actions"><a class="button button-gold" href="<%= urlFor('/about/') %>">Read My Story</a><a class="text-link text-link-light" href="<%= urlFor('/advisory/') %>">Explore My Impact <span aria-hidden="true">↗</span></a></div>
-          </div>
-        </div>
-      </div>
+<section class="home-hero section-dark">
+  <div class="hero-orbit" aria-hidden="true"></div>
+  <div class="container home-hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow eyebrow-light"><%= page.data.eyebrow %></p>
+      <h1>I began with <em>numbers.</em><br>The work has always<br>been about <span>people.</span></h1>
+      <p class="hero-intro"><%= page.data.lead %></p>
+      <div class="hero-actions"><a class="button button-gold" href="<%= urlFor('/about/') %>">Discover my story</a><a class="text-link text-link-light" href="<%= urlFor('/work/') %>">Explore my work <span aria-hidden="true">&#8599;</span></a></div>
     </div>
+    <figure class="hero-portrait">
+      <div class="portrait-disc" aria-hidden="true"></div>
+      <img src="<%= asset('assets/images/profile/shubhankar-shil-chair-v3.png') %>" width="1024" height="971" alt="Portrait of Shubhankar Shil wearing a suit, smiling toward the camera.">
+      <figcaption><span><%= page.data.portraitLabel %></span><span>Dhaka, Bangladesh</span></figcaption>
+    </figure>
   </div>
+  <div class="container scroll-cue"><span>There is more to the story</span><span aria-hidden="true">&darr;</span></div>
 </section>
+<section class="section story-thread"><div class="container split-heading"><div><p class="eyebrow">A thread through the years</p><h2><%= page.data.threadHeading %></h2></div><div class="prose-large"><% page.data.threadCopy.forEach((p) => { %><p><%= p %></p><% }) %><p class="pull-line">The work is never only about systems. It is also about the people expected to make those systems work.</p></div></div></section>
+<section class="section threads"><div class="container"><header class="section-heading"><p class="eyebrow">Where my work meets</p><h2>Three paths. <em>One continuing conversation.</em></h2></header><div class="thread-grid"><% page.data.threads.forEach((item) => { %><article class="thread-card"><span class="card-number"><%= item.number %></span><p class="eyebrow"><%= item.label %></p><h3><%= item.title %></h3><p><%= item.body %></p><a class="arrow-link" href="<%= urlFor(item.route) %>#<%= item.anchor %>">Explore <span aria-hidden="true">&#8599;</span></a></article><% }) %></div></div></section>
+<section class="statement-band"><div class="container"><p class="eyebrow eyebrow-light">What connects it all</p><blockquote><%= page.data.statement %></blockquote></div></section>
+<section class="section journey"><div class="container journey-grid"><div class="journey-intro"><p class="eyebrow">Selected milestones</p><h2>The journey,<br><em>in chapters.</em></h2><a class="button button-outline" href="<%= urlFor('/about/') %>">Read the full journey</a></div><ol class="timeline"><% page.data.milestones.forEach((item) => { %><li><span class="timeline-year"><%= item.year %></span><div><h3><%= item.title %></h3><p><%= item.body %></p></div></li><% }) %></ol></div></section>
+<section class="section feature-note"><div class="container feature-note-grid"><figure><img src="<%= asset('assets/images/profile/8a836ee1-8391-44b6-8f02-d7aba95e136f.png') %>" width="1206" height="1304" loading="lazy" alt="Shubhankar Shil in a professional portrait."></figure><div><p class="eyebrow">A personal note</p><h2>The classroom and the boardroom have more in common than we think.</h2><p>Both require evidence. Both require judgment. Both demand the confidence to recognize when an established way of working needs to change.</p><a class="arrow-link" href="<%= urlFor('/blogs/why-the-classroom-and-boardroom-belong-together/') %>">Read the story <span aria-hidden="true">&#8599;</span></a></div></div></section>
+<section class="section writing-preview"><div class="container"><div class="split-heading"><div><p class="eyebrow">Blogs & insights</p><h2>Ideas from the work.<br><em>Questions worth keeping.</em></h2></div><p>Draft essays are available in editorial preview and remain clearly marked until author approval.</p></div><% if (articles.length) { %><div class="article-grid"><% articles.slice(0,3).forEach((article) => { %><%- include('../components/article-card.ejs', { article }) %><% }) %></div><% } else { %><div class="empty-editorial"><h3>Writing is in editorial review.</h3><p>Drafts remain private until the author approves them for publication.</p></div><% } %><div class="section-actions"><a class="button button-outline" href="<%= urlFor('/blogs/') %>">Browse blogs</a><a class="button button-outline" href="<%= urlFor('/insights/') %>">Explore insights</a></div></div></section>
+<%- include('../components/cta.ejs', { cta: { eyebrow: 'Start a conversation', title: 'Progress is not something we build alone.', body: 'Good ideas need people willing to test them. Institutions need systems that earn trust.', label: 'Let\'s connect' } }) %>
 
-<section class="credential-strip" aria-label="Selected credentials"><div class="container"><ul><% page.data.credentials.forEach((item) => { %><li><%= item %></li><% }) %></ul></div></section>
 
-<section class="editorial-intro section"><div class="container split-layout"><div><p class="eyebrow">One philosophy. Multiple domains.</p><h2>Stronger institutions begin with clearer thinking.</h2></div><div><p class="large-copy"><%= page.data.thesis %></p><a class="arrow-link" href="<%= urlFor('/about/') %>">Read My Story <span aria-hidden="true">↗</span></a></div></div></section>
-
-<section class="pillars section"><div class="container"><div class="section-kicker"><p class="eyebrow">Three dimensions of work</p><p>One commitment to meaningful progress.</p></div><div class="pillar-layout"><% page.data.pillars.forEach((pillar, index) => { %><article class="pillar-card pillar-<%= index + 1 %>"><div class="pillar-top"><span><%= pillar.number %></span><span><%= pillar.label %></span></div><h2><%= pillar.title %></h2><p><%= pillar.body %></p><a class="arrow-link" href="<%= urlFor(pillar.route) %>"><%= pillar.cta %> <span aria-hidden="true">↗</span></a></article><% }) %></div></div></section>
-
-<section class="philosophy section-dark section"><div class="container philosophy-grid"><div><p class="eyebrow eyebrow-light">A working philosophy</p><h2>Systems matter.<br>So do people.</h2></div><div><p class="large-copy">Effective organizations need clear responsibilities, usable information, disciplined implementation and leaders willing to learn. Meaningful education requires curiosity, application and critical judgment.</p><ol><% page.data.principles.forEach((principle, index) => { %><li><span>0<%= index + 1 %></span><%= principle %></li><% }) %></ol></div></div></section>
-
-<section class="featured section"><div class="container featured-grid"><div class="featured-copy"><p class="eyebrow">Featured thinking</p><% if (articles.length) { const feature = articles[0]; %><p class="status-pill">Preview · Author review</p><h2><%= feature.title %></h2><p class="large-copy"><%= feature.description %></p><a class="button button-outline" href="<%= urlFor(feature.route) %>">Read the Insight</a><% } else { %><h2>Research translated into practice.</h2><p class="large-copy">Explore peer-reviewed work on governance, finance and organizational performance through verified publisher sources.</p><a class="button button-outline" href="<%= urlFor('/academia/') %>">Explore Research</a><% } %></div><aside class="research-spotlight"><p class="eyebrow">Research spotlight</p><span class="research-year">2024</span><h3>Board Independence and Corporate Performance: Lessons from Bangladesh</h3><p>A research perspective grounded in a Springer chapter co-authored by Shubhankar Shil.</p><a class="arrow-link" href="https://doi.org/10.1007/978-3-031-67547-8_5" target="_blank" rel="noopener noreferrer">View publication <span aria-hidden="true">↗</span></a></aside></div></section>
-
-<%- include('../components/cta.ejs', { cta: { eyebrow: 'Conversations that matter', title: 'Let’s turn thoughtful questions into meaningful progress.', body: 'Whether you represent an organization, an academic institution or a community of learners, a productive exchange begins with a clear question.', label: 'Start a Conversation' } }) %>

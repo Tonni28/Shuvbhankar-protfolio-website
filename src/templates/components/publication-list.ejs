@@ -1,9 +1,2 @@
-<ol class="publication-list">
-  <% publications.forEach((publication) => { %>
-    <li>
-      <span class="publication-year"><%= publication.year %></span>
-      <div><h3><%= publication.title %></h3><p><%= publication.authors %> · <%= publication.outlet %></p></div>
-      <a class="arrow-link" href="<%= publication.url %>" target="_blank" rel="noopener noreferrer">View source <span aria-hidden="true">↗</span></a>
-    </li>
-  <% }) %>
-</ol>
+<ol class="publication-list"><% publications.filter(p=>!p.featured).forEach((p)=>{ %><li><span class="publication-year"><%= p.year %></span><div><p class="publication-type"><%= p.type %></p><h3><%= p.title %></h3><p><%= p.authors %> · <%= p.outlet %></p></div><a class="arrow-link" href="<%= p.url %>" target="_blank" rel="noopener noreferrer">View source <span aria-hidden="true">↗</span></a></li><% }) %></ol>
+

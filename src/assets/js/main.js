@@ -1,107 +1,88 @@
-(() => {
-  const toggle = document.querySelector('.nav-toggle');
-  const navigation = document.querySelector('.primary-nav');
-  const toggleLabel = toggle?.querySelector('.nav-toggle-label');
+const navToggle=document.querySelector('.nav-toggle');
+const primaryNav=document.querySelector('.primary-nav');
+if(navToggle&&primaryNav){
+  navToggle.addEventListener('click',()=>{
+    const open=navToggle.getAttribute('aria-expanded')==='true';
+    navToggle.setAttribute('aria-expanded',String(!open));
+    primaryNav.classList.toggle('is-open',!open);
+    const label=navToggle.querySelector('.nav-toggle-label');
+    if(label) label.textContent=open?'Menu':'Close';
+  });
+  primaryNav.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{
+    navToggle.setAttribute('aria-expanded','false');
+    primaryNav.classList.remove('is-open');
+  }));
+}
+document.querySelectorAll('[data-current-year]').forEach(node=>{node.textContent=String(new Date().getFullYear());});
 
-  const closeNavigation = () => {
-    toggle?.setAttribute('aria-expanded', 'false');
-    navigation?.classList.remove('is-open');
-    if (toggleLabel) toggleLabel.textContent = 'Menu';
+const filterBar=document.querySelector('[data-filter-bar]');
+if(filterBar){
+  const search=filterBar.querySelector('[data-article-search]');
+  const radios=[...filterBar.querySelectorAll('input[type="radio"]')];
+  const cards=[...document.querySelectorAll('[data-article]')];
+  const empty=document.querySelector('[data-empty-state]');
+  const update=()=>{
+    const query=(search?.value||'').trim().toLowerCase();
+    const topic=radios.find(item=>item.checked)?.value||'All';
+    let shown=0;
+    cards.forEach(card=>{
+      const text=card.dataset.search||'';
+      const category=card.dataset.category||'';
+      const topicMatch=topic==='All'||category.includes(topic);
+      const searchMatch=!query||text.includes(query);
+      card.hidden=!(topicMatch&&searchMatch);
+      if(!card.hidden) shown+=1;
+    });
+    if(empty) empty.hidden=shown!==0;
   };
-
-  toggle?.addEventListener('click', () => {
-    const willOpen = toggle.getAttribute('aria-expanded') !== 'true';
-    toggle.setAttribute('aria-expanded', String(willOpen));
-    navigation?.classList.toggle('is-open', willOpen);
-    if (toggleLabel) toggleLabel.textContent = willOpen ? 'Close' : 'Menu';
-  });
-  navigation?.addEventListener('click', (event) => {
-    if (event.target.closest('a')) closeNavigation();
-  });
-  document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') closeNavigation();
-  });
-
-  document.querySelectorAll('[data-current-year]').forEach((element) => {
-    element.textContent = String(new Date().getFullYear());
-  });
-
-  const filterBar = document.querySelector('[data-filter-bar]');
-  if (filterBar) {
-    const search = filterBar.querySelector('[data-article-search]');
-    const radios = [...filterBar.querySelectorAll('input[name="topic"]')];
-    const articles = [...document.querySelectorAll('[data-article]')];
-    const emptyState = document.querySelector('[data-empty-state]');
-    const params = new URLSearchParams(window.location.search);
-    const initialQuery = params.get('q') || '';
-    const initialTopic = params.get('topic') || 'All';
-    search.value = initialQuery;
-    const initialRadio = radios.find((radio) => radio.value === initialTopic);
-    if (initialRadio) initialRadio.checked = true;
-
-    const applyFilters = () => {
-      const query = search.value.trim().toLowerCase();
-      const topic = radios.find((radio) => radio.checked)?.value || 'All';
-      let visible = 0;
-      articles.forEach((article) => {
-        const matchesQuery = !query || article.dataset.search.includes(query);
-        const matchesTopic = topic === 'All' || article.dataset.category === topic;
-        article.hidden = !(matchesQuery && matchesTopic);
-        if (!article.hidden) visible += 1;
-      });
-      if (emptyState) emptyState.hidden = visible !== 0;
-      const nextParams = new URLSearchParams();
-      if (query) nextParams.set('q', search.value.trim());
-      if (topic !== 'All') nextParams.set('topic', topic);
-      const suffix = nextParams.toString() ? `?${nextParams}` : window.location.pathname;
-      window.history.replaceState({}, '', suffix);
-    };
-
-    search.addEventListener('input', applyFilters);
-    radios.forEach((radio) => radio.addEventListener('change', applyFilters));
-    applyFilters();
-  }
-
-  const progress = document.querySelector('[data-reading-progress]');
-  if (progress) {
-    const updateProgress = () => {
-      const available = document.documentElement.scrollHeight - window.innerHeight;
-      const percent = available > 0 ? Math.min(100, (window.scrollY / available) * 100) : 0;
-      progress.style.setProperty('--progress', `${percent}%`);
-    };
-    document.addEventListener('scroll', updateProgress, { passive: true });
-    updateProgress();
-  }
-
-  const copyButton = document.querySelector('[data-copy-link]');
-  copyButton?.addEventListener('click', async () => {
-    try {
+  search?.addEventListener('input',update);
+  radios.forEach(item=>item.addEventListener('change',update));
+}
+const copyButton=document.querySelector('[data-copy-link]');
+if(copyButton){
+  copyButton.addEventListener('click',async()=>{
+    try{
       await navigator.clipboard.writeText(window.location.href);
-      copyButton.textContent = 'Link copied';
-    } catch {
-      copyButton.textContent = 'Copy unavailable';
+      copyButton.textContent='Link copied';
+      window.setTimeout(()=>{copyButton.textContent='Copy link';},1800);
+    }catch{copyButton.textContent='Copy unavailable';}
+  });
+}
+document.querySelector('[data-print]')?.addEventListener('click',()=>window.print());
+
+const progress=document.querySelector('[data-reading-progress]');
+if(progress){
+  const updateProgress=()=>{
+    const max=document.documentElement.scrollHeight-window.innerHeight;
+    progress.style.width=`${max>0?Math.min(100,(window.scrollY/max)*100):0}%`;
+  };
+  addEventListener('scroll',updateProgress,{passive:true});
+  updateProgress();
+}
+const form=document.querySelector('[data-contact-form]');
+if(form){
+  const params=new URLSearchParams(window.location.search);
+  const topic=params.get('topic');
+  if(topic){
+    const select=form.querySelector('select[name="category"]');
+    const match=[...select.options].find(option=>option.textContent.toLowerCase().includes(topic.toLowerCase()));
+    if(match) select.value=match.value;
+  }
+  const fields=[...form.querySelectorAll('[required]')];
+  const validateField=(field)=>{
+    const message=field.type==='email'&&!field.validity.valid?'Please enter a valid email address.':!field.validity.valid?'This field is required or incomplete.':'';
+    const error=form.querySelector(`[data-error-for="${field.name}"]`);
+    if(error) error.textContent=message;
+    field.setAttribute('aria-invalid',String(Boolean(message)));
+    return !message;
+  };
+  fields.forEach(field=>field.addEventListener('blur',()=>validateField(field)));
+  form.addEventListener('submit',event=>{
+    const valid=fields.map(validateField).every(Boolean);
+    if(!valid||!form.action){
+      event.preventDefault();
+      fields.find(field=>field.getAttribute('aria-invalid')==='true')?.focus();
     }
   });
+}
 
-  const form = document.querySelector('[data-contact-form]');
-  if (form && form.action && !form.querySelector('button[type="submit"]:disabled')) {
-    form.addEventListener('submit', (event) => {
-      let valid = true;
-      form.querySelectorAll('[required]').forEach((field) => {
-        const error = form.querySelector(`[data-error-for="${field.name}"]`);
-        if (!field.checkValidity()) {
-          valid = false;
-          field.setAttribute('aria-invalid', 'true');
-          if (error) error.textContent = field.validationMessage;
-        } else {
-          field.removeAttribute('aria-invalid');
-          if (error) error.textContent = '';
-        }
-      });
-      if (!valid) {
-        event.preventDefault();
-        form.querySelector('[aria-invalid="true"]')?.focus();
-      }
-    });
-  }
-})();

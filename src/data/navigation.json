@@ -1,27 +1,82 @@
 {
   "primary": [
-    { "label": "About", "route": "/about/", "children": [] },
-    { "label": "Advisory", "route": "/advisory/", "children": [] },
-    { "label": "Academia", "route": "/academia/", "children": [] },
-    { "label": "Mentorship", "route": "/mentorship/", "children": [] },
-    { "label": "Insights", "route": "/insights/", "children": [] },
-    { "label": "Contact", "route": "/contact/", "children": [] }
+    {
+      "label": "Home",
+      "route": "/",
+      "children": []
+    },
+    {
+      "label": "About",
+      "route": "/about/",
+      "children": []
+    },
+    {
+      "label": "Work",
+      "route": "/work/",
+      "children": []
+    },
+    {
+      "label": "Blogs",
+      "route": "/blogs/",
+      "children": []
+    },
+    {
+      "label": "Insights",
+      "route": "/insights/",
+      "children": []
+    },
+    {
+      "label": "Contact",
+      "route": "/contact/",
+      "children": []
+    }
   ],
   "footer": {
     "explore": [
-      { "label": "About", "route": "/about/" },
-      { "label": "Advisory", "route": "/advisory/" },
-      { "label": "Academia", "route": "/academia/" },
-      { "label": "Mentorship", "route": "/mentorship/" }
+      {
+        "label": "My Story",
+        "route": "/about/"
+      },
+      {
+        "label": "My Work",
+        "route": "/work/"
+      },
+      {
+        "label": "Blogs",
+        "route": "/blogs/"
+      },
+      {
+        "label": "Insights",
+        "route": "/insights/"
+      },
+      {
+        "label": "Research & Publications",
+        "route": "/insights/research/"
+      }
     ],
-    "read": [
-      { "label": "Insights", "route": "/insights/" },
-      { "label": "Shubha’s Notebook", "route": "/notebook/" },
-      { "label": "Speaking", "route": "/speaking/" }
+    "connect": [
+      {
+        "label": "Speaking & Collaboration",
+        "route": "/speaking/"
+      },
+      {
+        "label": "Contact",
+        "route": "/contact/"
+      }
     ],
     "legal": [
-      { "label": "Accessibility", "route": "/accessibility/" },
-      { "label": "Privacy", "route": "/privacy/" }
+      {
+        "label": "Privacy Notice",
+        "route": "/privacy/"
+      },
+      {
+        "label": "Editorial Policy",
+        "route": "/editorial-policy/"
+      },
+      {
+        "label": "Accessibility",
+        "route": "/accessibility/"
+      }
     ]
   }
 }

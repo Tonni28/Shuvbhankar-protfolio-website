@@ -1,18 +1,17 @@
-<header class="site-header">
+<header class="site-header" data-site-header>
   <div class="container header-inner">
     <a class="brand" href="<%= urlFor('/') %>" aria-label="Shubhankar Shil, home">
-      <span class="brand-name">SHUBHANKAR SHIL</span><span class="brand-mark">/ FCA</span>
+      <span class="brand-name">Shubhankar.</span><span class="brand-mark">FCA</span>
     </a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
-      <span class="sr-only">Toggle navigation</span><span class="nav-toggle-label" aria-hidden="true">Menu</span>
-    </button>
-    <nav id="primary-navigation" class="primary-nav" aria-label="Primary">
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span class="nav-toggle-label">Menu</span><span class="nav-toggle-lines" aria-hidden="true"></span></button>
+    <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation">
       <ul>
-        <% navigation.primary.forEach((item) => { %>
-          <% const isCurrent = item.route === page.route || (item.route === '/insights/' && page.route.startsWith('/insights/')); %>
-          <li><a href="<%= urlFor(item.route) %>"<% if (isCurrent) { %> aria-current="page"<% } %>><%= item.label %></a></li>
+        <% navigation.primary.forEach((item) => { const current = item.route === page.route || (item.route !== '/' && page.route.startsWith(item.route)); %>
+          <li><a href="<%= urlFor(item.route) %>"<% if (current) { %> aria-current="page"<% } %>><%= item.label %></a></li>
         <% }) %>
       </ul>
+      <a class="header-cta" href="<%= urlFor('/contact/') %>">Let's connect <span aria-hidden="true">↗</span></a>
     </nav>
   </div>
 </header>
+

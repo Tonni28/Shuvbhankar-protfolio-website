@@ -1,122 +1,699 @@
 [
   {
-    "id": "systems-not-heroes",
-    "route": "/insights/why-good-organizations-need-systems/",
-    "title": "Why Good Organizations Depend on Good Systems, Not Extraordinary Individuals",
-    "description": "A framework for shifting performance from personal heroics to reliable institutional practice.",
-    "type": "insight",
-    "category": "Strategy & Organizational Excellence",
-    "tags": ["Systems", "Leadership", "Organization design"],
+    "slug": "why-the-classroom-and-boardroom-belong-together",
+    "route": "/blogs/why-the-classroom-and-boardroom-belong-together",
+    "title": "Why the Classroom and the Boardroom Belong Together",
+    "deck": "The questions that matter in a university classroom often matter just as much in the management of an organization.",
+    "description": "The questions that matter in a university classroom often matter just as much in the management of an organization.",
+    "excerpt": "The questions that matter in a university classroom often matter just as much in the management of an organization.",
+    "category": "Lessons from the classroom / People and institutions",
+    "tags": [
+      "Lessons from the classroom",
+      "People and institutions"
+    ],
+    "contentType": "blog",
+    "type": "blog",
+    "datePublished": null,
+    "dateUpdated": "2026-11-07",
     "status": "draft",
-    "author": "Shubhankar Shil",
-    "readingMinutes": 6,
+    "author": "Shubhankar Shil, FCA",
+    "featuredImage": null,
+    "featuredImageAlt": "",
+    "sources": [],
+    "seoTitle": "Why the Classroom and the Boardroom Belong Together | Shubhankar Shil",
+    "seoDescription": "The questions that matter in a university classroom often matter just as much in the management of an organization.",
+    "relatedSlugs": [],
     "body": [
-      { "heading": "The familiar paradox", "paragraphs": ["An organization may be full of capable, committed people and still struggle with delays, rework and inconsistent decisions. The cause is not necessarily a shortage of talent. Often, the organization relies on talent to compensate for ambiguity. One exceptional manager becomes the informal approval system; another employee is the only person who understands a critical spreadsheet; a third knows how to navigate a complicated procedure that nobody has documented."] },
-      { "heading": "When heroics become a liability", "paragraphs": ["Personal initiative is valuable, especially during uncertainty. But repeated dependence on extraordinary effort is a warning sign. When every exception must be solved by the same individual, capacity is not being developed. What looks like resilience in the short term can become fragility when people move, responsibilities expand or operating conditions change."] },
-      { "heading": "The institutional alternative", "paragraphs": ["A stronger organization makes the expected way of working explicit. It identifies who is responsible for which decision, what information is required, when concerns should be escalated and how results are reviewed. Documentation should be useful rather than ceremonial. Technology should simplify work instead of preserving inefficient processes in digital form."] },
-      { "heading": "Five questions for leadership", "paragraphs": ["Where does a decision stop when a particular person is absent? Which processes require repeated manual correction? What information arrives too late to influence action? Where are accountability boundaries blurred? Which recurring problems are solved informally but never structurally?"] },
-      { "heading": "A practical starting point", "paragraphs": ["Choose one important, recurring workflow. Map its trigger, steps, handoffs, approvals, information needs and exceptions. Speak with the people who actually perform the work. Remove unnecessary duplication, clarify the owner of each decision and record a small number of indicators that show whether the workflow is improving."] },
-      { "heading": "The deeper principle", "paragraphs": ["The objective is not to replace talented people with rigid procedures. It is to give talented people an environment in which their contribution can be repeated, transferred and improved. Sustainable organizational excellence emerges when capable people and dependable systems reinforce one another."] }
+      {
+        "heading": "The reflection",
+        "paragraphs": [
+          "At first glance, a university classroom and a corporate boardroom seem to have little in common. One is usually associated with learning. The other, with decisions. Yet a closer look suggests that both settings ask people to do something remarkably similar: make sense of incomplete information, listen to different perspectives and take responsibility for a conclusion.",
+          "In a classroom, a student might be asked whether a company should borrow to expand. The financial answer depends on the cost of capital and projected cash flows. But a meaningful discussion rarely ends there. What if demand is less reliable than the forecast suggests? How much risk can the business afford? Who bears the consequences if the decision fails? A technically correct answer can still be incomplete.",
+          "A management meeting faces the same difficulty. The participants may have reports, projections and a set of approved procedures. They still have to judge which assumptions deserve confidence, what evidence is missing and which options remain feasible in practice.",
+          "This is why I have never found the boundary between professional practice and teaching especially useful. Each discipline should improve the other. Work exposes the limits of tidy models. Teaching requires us to explain what we think we know and why."
+        ]
+      },
+      {
+        "heading": "Beyond the correct answer",
+        "paragraphs": [
+          "Education sometimes rewards speed: identify the expected formula, produce the expected result and move on. Organizations can develop a similar habit. A meeting ends when a decision is recorded, even when important doubts remain unexamined.",
+          "The better question is not only whether an answer is defensible. It is whether the reasoning is clear enough for others to challenge, learn from and improve.",
+          "Consider an entirely hypothetical example. A small company wants to introduce new management software. Its leadership assumes that delays are caused by a lack of automation. A student looking only for a familiar solution may recommend a platform. An advisor looking only for a deliverable may do the same. But a careful inquiry could reveal that approvals are duplicated, responsibilities overlap and basic information is collected differently by each department. In that case, software may accelerate confusion rather than remove it.",
+          "The value of professional judgment lies in recognizing when the first explanation is insufficient."
+        ]
+      },
+      {
+        "heading": "Authority and the freedom to question",
+        "paragraphs": [
+          "A good classroom gives learners permission to disagree respectfully. A healthy organization needs the same habit. When people believe that questioning an assumption will be treated as disloyalty, mistakes become harder to identify. When every answer must sound certain, learning becomes shallow.",
+          "None of this means that every decision should be endlessly debated. Leaders must make choices, and teachers must set standards. The challenge is to create enough openness to improve the quality of a decision without avoiding responsibility for making it.",
+          "I think of this as the difference between authority that demands agreement and authority that earns trust through sound reasoning."
+        ]
+      },
+      {
+        "heading": "The lesson that travels",
+        "paragraphs": [
+          "A student who learns to state an assumption, test evidence and revise a conclusion takes a skill into every future profession. A manager who can do the same builds a stronger basis for collective action.",
+          "The classroom and boardroom belong together because both are places where the quality of thinking eventually becomes the quality of work. The details differ. The responsibility does not."
+        ]
+      }
     ]
   },
   {
-    "id": "governance-beyond-compliance",
-    "route": "/insights/corporate-governance-beyond-compliance/",
-    "title": "Corporate Governance Beyond Boardroom Compliance",
-    "description": "Why credible oversight depends on information, accountability and better questions.",
-    "type": "insight",
-    "category": "Governance & Accountability",
-    "tags": ["Governance", "Boards", "Accountability"],
+    "slug": "your-first-job-is-a-beginning",
+    "route": "/blogs/your-first-job-is-a-beginning",
+    "title": "Your First Job Is a Beginning, Not a Verdict",
+    "deck": "Early career decisions matter, but they do not settle the question of what a person can become.",
+    "description": "Early career decisions matter, but they do not settle the question of what a person can become.",
+    "excerpt": "Early career decisions matter, but they do not settle the question of what a person can become.",
+    "category": "Notes to young professionals",
+    "tags": [
+      "Notes to young professionals"
+    ],
+    "contentType": "blog",
+    "type": "blog",
+    "datePublished": null,
+    "dateUpdated": "2026-11-07",
     "status": "draft",
-    "author": "Shubhankar Shil",
-    "readingMinutes": 6,
+    "author": "Shubhankar Shil, FCA",
+    "featuredImage": null,
+    "featuredImageAlt": "",
+    "sources": [],
+    "seoTitle": "Your First Job Is a Beginning, Not a Verdict | Shubhankar Shil",
+    "seoDescription": "Early career decisions matter, but they do not settle the question of what a person can become.",
+    "relatedSlugs": [],
     "body": [
-      { "heading": "A board can be compliant yet ineffective", "paragraphs": ["A governing body can meet formally, approve the required documents and still struggle to influence how an organization behaves. Compliance establishes an important baseline. Effective governance goes further: it creates clarity about purpose, oversight, risk appetite, decision rights and the information needed to question management responsibly."] },
-      { "heading": "Oversight is an information problem", "paragraphs": ["Directors cannot exercise meaningful judgment on the basis of incomplete or overly polished reports. A useful dashboard connects performance results with the management actions behind them, and it highlights where trends require attention. The volume of reporting is less important than its relevance and integrity."] },
-      { "heading": "Independence is not a substitute for effectiveness", "paragraphs": ["Independent and non-executive directors can contribute perspective and challenge, but formal status alone cannot guarantee good outcomes. Board composition must be considered alongside sector conditions, ownership dynamics, incentives, access to information and actual behavior in meetings."] },
-      { "heading": "Three practical tests", "paragraphs": ["Does the board receive critical information early enough to act? Does it know who is responsible for addressing unresolved risks? Can management explain how board decisions translate into action, monitoring and learning?"] },
-      { "heading": "A better conversation", "paragraphs": ["Boards should ask fewer ceremonial questions and more decision-relevant ones: What could prevent the strategy from working? Which assumptions have changed? Where are incentives encouraging undesirable outcomes? What evidence would cause us to revise our position?"] },
-      { "heading": "Perspective", "paragraphs": ["The long-term value of governance lies in better decisions, credible accountability and stronger institutional trust. Legal compliance remains indispensable, but lasting effectiveness requires active judgment and a transparent connection between oversight and execution."] }
+      {
+        "heading": "The reflection",
+        "paragraphs": [
+          "Dear young professional,",
+          "Your first job matters. It is where many of the habits you will carry for years begin to form. You learn what it means to finish work that other people depend on, to ask for help without avoiding responsibility, and to discover the difference between knowing a subject and being able to use it.",
+          "But your first job is not a final judgment on your ability. Nor is its title, salary or employer's reputation a complete measure of your future.",
+          "I understand why those signals attract attention. They are easy to compare, especially when friends are graduating at the same time. The problem begins when comparison replaces reflection. A prestigious offer may create excitement without giving you much room to develop. A modest role may offer unusually good exposure to decision-making, responsibility and experienced colleagues. Neither outcome is guaranteed. You have to examine the work itself."
+        ]
+      },
+      {
+        "heading": "Ask what you will be learning",
+        "paragraphs": [
+          "Before accepting a role, learn as much as you reasonably can about the people and the work. What will you be expected to deliver? Who will review your work? Can you see how your tasks connect to a larger result? Is feedback specific, or are mistakes simply criticized? Will you have a chance to develop competence rather than only demonstrate availability?",
+          "Money is important. It pays bills and supports independence. It would be irresponsible to suggest ignoring it. But career decisions usually involve more than one kind of return. There is financial compensation, and there is the development of skill, credibility and judgment. Early in your career, those nonfinancial returns can influence the options available later."
+        ]
+      },
+      {
+        "heading": "Do not confuse being busy with becoming capable",
+        "paragraphs": [
+          "An exhausting week can feel productive even when little has been learned. Try to notice the difference. Are you simply completing a familiar task faster, or do you now understand the problem better? Can you explain your work clearly? Can you identify an error before someone points it out? Can you make a decision when the instructions are incomplete?",
+          "Keep a private record of what you are learning. It need not be elaborate. Write down the difficult questions you encountered, the mistakes you corrected and the approaches that worked. Over time, that record becomes a more useful account of growth than a collection of job titles."
+        ]
+      },
+      {
+        "heading": "Keep your ambitions, but give them a foundation",
+        "paragraphs": [
+          "You can want a global career, a leading employer, postgraduate study or the opportunity to build a company. There is nothing wrong with aiming high. The difficulty comes when ambition is detached from preparation.",
+          "Build your writing. Learn to present evidence. Understand numbers even if you do not work in finance. Respect deadlines. Read beyond the material required for an examination. Be fair to colleagues whose contributions are less visible than your own.",
+          "Professional life is not a single competition in which everyone starts at the same point. People have different responsibilities, resources and opportunities. Comparing only the outcomes obscures those differences. Compare your present capabilities with what the next stage of your chosen work demands.",
+          "Your first job is a beginning. Give it the seriousness it deserves, but do not allow it to define the limits of your future."
+        ]
+      }
     ]
   },
   {
-    "id": "teach-judgment",
-    "route": "/insights/universities-must-teach-judgment/",
-    "title": "Why Universities Must Teach Judgment, Not Just Knowledge",
-    "description": "The educational challenge is increasingly to distinguish a credible answer from a convenient one.",
-    "type": "insight",
-    "category": "Education & Learning",
-    "tags": ["Higher education", "Assessment", "AI"],
+    "slug": "learning-should-outlast-the-certificate",
+    "route": "/blogs/learning-should-outlast-the-certificate",
+    "title": "Learning Should Outlast the Certificate",
+    "deck": "A qualification can establish a standard. The habit of learning determines what happens after that standard has been met.",
+    "description": "A qualification can establish a standard. The habit of learning determines what happens after that standard has been met.",
+    "excerpt": "A qualification can establish a standard. The habit of learning determines what happens after that standard has been met.",
+    "category": "Lessons from the classroom",
+    "tags": [
+      "Lessons from the classroom"
+    ],
+    "contentType": "blog",
+    "type": "blog",
+    "datePublished": null,
+    "dateUpdated": "2026-11-07",
     "status": "draft",
-    "author": "Shubhankar Shil",
-    "readingMinutes": 6,
+    "author": "Shubhankar Shil, FCA",
+    "featuredImage": null,
+    "featuredImageAlt": "",
+    "sources": [],
+    "seoTitle": "Learning Should Outlast the Certificate | Shubhankar Shil",
+    "seoDescription": "A qualification can establish a standard. The habit of learning determines what happens after that standard has been met.",
+    "relatedSlugs": [],
     "body": [
-      { "heading": "The challenge of abundant information", "paragraphs": ["Access to information is no longer the central constraint faced by many learners. Search engines, digital libraries and generative tools make content easier to obtain, summarize and reorganize. The educational challenge is increasingly to distinguish a credible answer from a convenient one, and a well-reasoned decision from a plausible statement."] },
-      { "heading": "What judgment looks like", "paragraphs": ["Judgment requires the ability to identify the real question, evaluate evidence, recognize uncertainty and make a defensible choice. In management, it may mean deciding which organizational bottleneck matters most. In public policy, it may involve recognizing how a technically attractive proposal interacts with implementation capacity."] },
-      { "heading": "The limits of passive instruction", "paragraphs": ["A lecture can introduce concepts efficiently, but listening alone rarely demonstrates whether a learner can apply them. Teaching should create opportunities to compare alternatives, argue from evidence, diagnose a case and reflect on consequences."] },
-      { "heading": "Designing learning backward", "paragraphs": ["Start with the decisions a graduate should be able to make. Identify the knowledge and skills needed to make those decisions responsibly. Then design activities, feedback and assessment that develop the capability progressively."] },
-      { "heading": "Technology is a tool, not a learning objective", "paragraphs": ["Digital tools can help instructors prepare examples, diversify practice and provide feedback. They can also hide gaps in understanding if students are rewarded merely for polished output. Thoughtful education asks learners to explain assumptions, compare sources and justify choices."] },
-      { "heading": "A wider responsibility", "paragraphs": ["Universities prepare people for professions, but also for citizenship and life in organizations. Their contribution is strongest when graduates can learn independently, work ethically, communicate across differences and respond constructively when the textbook no longer supplies an answer."] }
+      {
+        "heading": "The reflection",
+        "paragraphs": [
+          "A certificate tells us that someone has met a set of requirements at a particular moment. That matters. It recognizes effort, gives institutions a common reference point and can help employers evaluate applicants. The mistake is to treat the certificate as the end of learning rather than one stage in it.",
+          "Professional knowledge does not stand still. Rules change. Markets develop. Technology alters the sequence of work. New problems do not arrive neatly arranged according to the chapters of a textbook.",
+          "The people who adapt well are not necessarily those who remember the most material from an examination. They are often those who know how to find reliable information, ask for a second opinion, test an assumption and recognize a gap in their own understanding."
+        ]
+      },
+      {
+        "heading": "What is education supposed to leave behind?",
+        "paragraphs": [
+          "If a student can recite a definition but cannot explain when the concept is relevant, something is missing. If an accounting graduate can perform a calculation but cannot communicate its implications to a manager, knowledge has not yet become professional judgment. If an emerging leader can use the terminology of strategy but cannot name the trade-offs in a decision, vocabulary has moved ahead of understanding.",
+          "These are not arguments against examinations or formal education. They are arguments for taking assessment seriously enough to ask what it measures.",
+          "A course should help a learner build a foundation, test that foundation in unfamiliar situations and leave with the confidence to continue developing it independently. That requires teachers to design problems that reward reasoning, not only recall. It also requires students to accept that uncertainty is part of competent work."
+        ]
+      },
+      {
+        "heading": "The discipline of revising an opinion",
+        "paragraphs": [
+          "One of the clearest signs of learning is the ability to change a view without feeling defeated. Evidence may show that a familiar approach is no longer appropriate. A colleague may raise an objection we had not considered. An unexpected result may reveal that the problem was framed incorrectly.",
+          "The response should not be to protect our first answer at any cost. It should be to improve it.",
+          "In management, the cost of refusing to revise a view can be considerable. In education, the same habit can prevent people from progressing beyond what they were once taught."
+        ]
+      },
+      {
+        "heading": "After the course ends",
+        "paragraphs": [
+          "Read. Ask. Practice. Seek feedback from people who can explain both what worked and what did not. Keep notes on recurring mistakes. Learn enough about neighboring disciplines to understand how your work affects others.",
+          "Certificates are useful milestones. They can help open doors. But it is the quality of your thinking and the reliability of your work that give those opportunities lasting meaning."
+        ]
+      }
     ]
   },
   {
-    "id": "career-first-job",
-    "route": "/notebook/your-career-is-bigger-than-first-job/",
-    "title": "Dear Students, Your Career Is Bigger Than Your First Job",
-    "description": "The first opportunity matters, but the habits you build will travel farther than a job title.",
-    "type": "notebook",
-    "category": "Career & Learning",
-    "tags": ["Career", "Students", "Professional growth"],
+    "slug": "the-value-of-a-better-question",
+    "route": "/blogs/the-value-of-a-better-question",
+    "title": "A Better Question Is Often the Beginning of Better Work",
+    "deck": "We are often eager to solve a problem before we have agreed on what the problem actually is.",
+    "description": "We are often eager to solve a problem before we have agreed on what the problem actually is.",
+    "excerpt": "We are often eager to solve a problem before we have agreed on what the problem actually is.",
+    "category": "People and institutions",
+    "tags": [
+      "People and institutions"
+    ],
+    "contentType": "blog",
+    "type": "blog",
+    "datePublished": null,
+    "dateUpdated": "2026-11-07",
     "status": "draft",
-    "author": "Shubhankar Shil",
-    "readingMinutes": 6,
+    "author": "Shubhankar Shil, FCA",
+    "featuredImage": null,
+    "featuredImageAlt": "",
+    "sources": [],
+    "seoTitle": "A Better Question Is Often the Beginning of Better Work | Shubhankar Shil",
+    "seoDescription": "We are often eager to solve a problem before we have agreed on what the problem actually is.",
+    "relatedSlugs": [],
     "body": [
-      { "heading": "The pressure of a starting point", "paragraphs": ["The final years of study often bring an understandable urgency: which company will hire me, what salary will I earn, and how quickly will I receive an offer? These questions matter. Yet they cannot carry the full weight of a long professional life. A first role is a starting environment, not a final identity."] },
-      { "heading": "Choose learning as a measure", "paragraphs": ["Prestige and compensation are useful signals, but they do not always tell you whether a role will strengthen your capabilities. Ask whether you will be exposed to meaningful problems, receive feedback, work with responsible colleagues and understand the reasons behind important decisions."] },
-      { "heading": "Build evidence of capability", "paragraphs": ["A degree communicates that you have completed a course of study. A portfolio shows what you can apply. Keep examples of responsible work while protecting confidential information and respecting the ownership of work produced with others."] },
-      { "heading": "A professional reputation begins early", "paragraphs": ["Reliability, clarity and honesty compound over time. Arrive prepared. Admit uncertainty. Ask for clarification before mistakes become expensive. Keep commitments, document decisions and acknowledge others’ contributions."] },
-      { "heading": "Leave space for redirection", "paragraphs": ["Many careers develop through opportunities that were not visible at graduation. The ability to learn a new domain, work with unfamiliar colleagues and recover from an imperfect choice matters more than maintaining a perfectly linear biography."] },
-      { "heading": "The longer horizon", "paragraphs": ["Prepare for your first job, but do not optimize your entire life around it. Build competence that travels, judgment that deepens and relationships grounded in trust. The goal is to become someone capable of contributing wherever meaningful work takes you."] }
+      {
+        "heading": "The reflection",
+        "paragraphs": [
+          "A question can feel like a delay when everyone is waiting for a solution. Meetings move faster when the problem has a simple name. A process is slow, so someone proposes software. Costs are rising, so someone proposes cuts. Students seem unprepared, so someone proposes additional lectures.",
+          "Each suggestion may eventually prove useful. But speed is not the same as clarity.",
+          "The first question I would want to ask is usually the least dramatic: what do we know is happening, and how do we know it?"
+        ]
+      },
+      {
+        "heading": "Look below the visible symptom",
+        "paragraphs": [
+          "Imagine a department that takes too long to prepare a monthly report. The immediate explanation is that staff are inefficient. Yet a closer examination might reveal that information arrives in different formats, the approval chain is unclear and the same figure is checked repeatedly because no one is certain which source is authoritative.",
+          "The delay is real. The initial diagnosis may not be.",
+          "The same distinction appears in education. A class performs poorly on an assessment. It may be tempting to conclude that students are not working hard enough. But one should also examine whether the intended learning outcomes were clear, whether the teaching methods matched those outcomes and whether the assessment tested what the course was supposed to develop.",
+          "Questions do not excuse poor performance. They make a fair and useful response more likely."
+        ]
+      },
+      {
+        "heading": "Questions that move work forward",
+        "paragraphs": [
+          "Good questions are not abstract exercises. They help people identify decisions and responsibilities. Who is affected by this problem? Which part of the process is failing? What evidence would change our current view? What have we already tried? Who will maintain the proposed solution after the project team leaves?",
+          "A team does not need to examine every possibility indefinitely. It needs enough understanding to avoid investing effort in the wrong answer."
+        ]
+      },
+      {
+        "heading": "Curiosity with responsibility",
+        "paragraphs": [
+          "There is a difference between questioning everything and taking questions seriously. The former can become avoidance. The latter should lead to action.",
+          "Once the problem has been defined well enough, the next task is to decide, implement, observe and learn. We should be prepared to change the approach if reality contradicts our expectations.",
+          "That rhythm is useful in organizations and classrooms alike: ask carefully, act responsibly, pay attention to what happens and improve what you can.",
+          "A better question rarely makes the work disappear. It makes the work more likely to matter."
+        ]
+      }
     ]
   },
   {
-    "id": "complexity-cost",
-    "route": "/insights/hidden-cost-of-organizational-complexity/",
-    "title": "The Hidden Cost of Organizational Complexity",
-    "description": "How accumulated controls and handoffs can make responsible action harder.",
-    "type": "insight",
-    "category": "Strategy & Organizational Excellence",
-    "tags": ["Complexity", "Operations", "Transformation"],
+    "slug": "when-a-student-challenges-the-answer",
+    "route": "/blogs/when-a-student-challenges-the-answer",
+    "title": "When a Student Challenges the Answer",
+    "deck": "An effective learning environment leaves room for respectful disagreement and the discipline of explaining one's reasoning.",
+    "description": "An effective learning environment leaves room for respectful disagreement and the discipline of explaining one's reasoning.",
+    "excerpt": "An effective learning environment leaves room for respectful disagreement and the discipline of explaining one's reasoning.",
+    "category": "Lessons from the classroom",
+    "tags": [
+      "Lessons from the classroom"
+    ],
+    "contentType": "blog",
+    "type": "blog",
+    "datePublished": null,
+    "dateUpdated": "2026-11-07",
     "status": "draft",
-    "author": "Shubhankar Shil",
-    "readingMinutes": 6,
+    "author": "Shubhankar Shil, FCA",
+    "featuredImage": null,
+    "featuredImageAlt": "",
+    "sources": [],
+    "seoTitle": "When a Student Challenges the Answer | Shubhankar Shil",
+    "seoDescription": "An effective learning environment leaves room for respectful disagreement and the discipline of explaining one's reasoning.",
+    "relatedSlugs": [],
     "body": [
-      { "heading": "Complexity arrives quietly", "paragraphs": ["New approvals are often introduced for good reasons. A process is added after an incident; a report is requested after a missed target. Over time, these decisions accumulate. Each step may be defensible in isolation, yet the combined system may delay action and obscure responsibility."] },
-      { "heading": "Costs beyond the budget", "paragraphs": ["Employees spend time clarifying who may decide, repeating information across departments and navigating exceptions. Leaders receive more reports but less understanding. The organization becomes harder to manage precisely when it needs agility."] },
-      { "heading": "Distinguish necessary from inherited complexity", "paragraphs": ["Some complexity is unavoidable: regulations, safety needs and legitimate oversight create important controls. The task is to distinguish controls that create value from procedures that survive because nobody has questioned them."] },
-      { "heading": "Look for friction signals", "paragraphs": ["Repeated approval loops, parallel spreadsheets, frequent escalations and unexplained differences in management data are useful signals. So are meetings that exist primarily to reconcile reports rather than decide actions."] },
-      { "heading": "Redesign with safeguards", "paragraphs": ["Begin with one workflow and agree on the outcome it exists to achieve. Clarify its owner, inputs, decisions, controls and service standard. Simplify handoffs, but document why any control is removed. Test the revised process in a limited setting."] },
-      { "heading": "The design principle", "paragraphs": ["Simplicity is not the absence of discipline. It is the discipline of making the essential visible, eliminating avoidable effort and preserving the controls that protect the organization."] }
+      {
+        "heading": "The reflection",
+        "paragraphs": [
+          "There is a moment in any serious discussion when someone asks a question that the prepared answer does not quite settle. It is tempting to move past it, particularly when time is short and others are waiting. Yet those moments can reveal whether we are teaching knowledge as a finished product or learning as an active process.",
+          "I believe a student should be able to question an explanation respectfully and expect the question to be considered on its merits. The same standard should apply to the teacher. Authority carries the responsibility to explain, acknowledge limits and correct errors when necessary.",
+          "This is not a call for argument without purpose. A classroom needs structure. Standards matter. Evidence matters. A view does not become persuasive merely because it is expressed confidently. What matters is whether we can examine a claim without treating the person making it as the problem."
+        ]
+      },
+      {
+        "heading": "Disagreement is a skill",
+        "paragraphs": [
+          "Many important professional decisions are made among people who understand different parts of the same issue. A finance professional may be concerned about liquidity. An operations manager may be concerned about delivery. An educator may be concerned about learning outcomes. Each view can be reasonable without being complete.",
+          "The ability to disagree productively is therefore not simply a classroom courtesy. It is part of professional competence. It requires precise language, evidence, patience and willingness to revise an opinion."
+        ]
+      },
+      {
+        "heading": "What a teacher can model",
+        "paragraphs": [
+          "A teacher who says 'I need to verify that' is not surrendering authority. The statement demonstrates an important professional habit: recognizing the boundary between confidence and evidence.",
+          "Similarly, a teacher who asks a student to explain the reasoning behind an answer is not dismissing that answer. The aim is to make understanding visible.",
+          "I would rather see a student reach a qualified conclusion through careful reasoning than repeat a confident statement that cannot withstand a second question."
+        ]
+      },
+      {
+        "heading": "Beyond the classroom",
+        "paragraphs": [
+          "Organizations have much to learn from this approach. When people at different levels can challenge assumptions respectfully, a team has a better chance of identifying risks before they harden into failures.",
+          "The goal is not agreement at all costs. It is a culture in which evidence can travel, responsibility remains clear and people are willing to learn.",
+          "# PART IV — COMPLETE INSIGHT ARTICLES"
+        ]
+      }
     ]
   },
   {
-    "id": "financial-literacy",
-    "route": "/insights/financial-literacy-is-leadership-skill/",
-    "title": "Financial Literacy Is a Leadership Skill",
-    "description": "Why financial information is part of responsible leadership, not only the finance function.",
+    "slug": "organizations-should-not-depend-on-heroes",
+    "route": "/insights/organizations-should-not-depend-on-heroes",
+    "title": "Why Good Organizations Should Not Depend on Heroes",
+    "deck": "Exceptional individuals can keep a weak system functioning for a while. That does not make the system strong.",
+    "description": "Exceptional individuals can keep a weak system functioning for a while. That does not make the system strong.",
+    "excerpt": "Exceptional individuals can keep a weak system functioning for a while. That does not make the system strong.",
+    "category": "Strategy & operations",
+    "tags": [
+      "Strategy",
+      "operations"
+    ],
+    "contentType": "insight",
     "type": "insight",
-    "category": "Finance, Accounting & Economics",
-    "tags": ["Finance", "Leadership", "Decision-making"],
+    "datePublished": null,
+    "dateUpdated": "2026-11-07",
     "status": "draft",
-    "author": "Shubhankar Shil",
-    "readingMinutes": 5,
+    "author": "Shubhankar Shil, FCA",
+    "featuredImage": null,
+    "featuredImageAlt": "",
+    "sources": [],
+    "seoTitle": "Why Good Organizations Should Not Depend on Heroes | Shubhankar Shil",
+    "seoDescription": "Exceptional individuals can keep a weak system functioning for a while. That does not make the system strong.",
+    "relatedSlugs": [],
     "body": [
-      { "heading": "Financial information is organizational language", "paragraphs": ["Managers make choices about people, projects, suppliers, customers and risk. Each choice eventually interacts with resources, liquidity, cost and value. Financial literacy is therefore not the exclusive responsibility of accountants. It is part of responsible leadership."] },
-      { "heading": "Beyond reading a profit figure", "paragraphs": ["A reported profit does not answer every question about the health of an organization. Leaders need to understand how profit relates to cash generation, working capital, financing obligations and the timing of investments."] },
-      { "heading": "The value of a good question", "paragraphs": ["Which assumptions drive this forecast? How sensitive is the result to price, volume or cost? What risks are not reflected in the headline figure? The objective is not to turn every leader into an accountant, but to improve the dialogue between functions."] },
-      { "heading": "Make information usable", "paragraphs": ["A management report should connect the numbers with activities the organization can influence. Indicators need clear definitions, owners, comparators and a reason for inclusion."] },
-      { "heading": "Teaching and building capability", "paragraphs": ["Financial literacy can be developed with practical cases: comparing two investment choices, following the cash cycle of a small business or explaining why a budget variance occurred."] },
-      { "heading": "The leadership implication", "paragraphs": ["Organizations benefit when financial responsibility is shared without weakening professional controls. Finance specialists retain their technical role; other leaders become better partners in decisions that depend on financial evidence."] }
+      {
+        "heading": "The question",
+        "paragraphs": [
+          "Many organizations have a person everyone depends on. They know the client history, remember every exception, approve the difficult transactions and solve problems that nobody else can untangle. Their dedication may be impressive. Their importance may also reveal a structural weakness.",
+          "When routine performance depends on one individual being available, institutional knowledge has not been distributed adequately. Decision rights may be unclear. Processes may be undocumented. Others may lack the information, authority or confidence to act.",
+          "An organization can benefit enormously from talented people while still building an unhealthy dependency on them. The issue is not whether exceptional contributors deserve recognition. They do. The issue is whether the organization can perform responsibly when those contributors are absent, promoted or replaced."
+        ]
+      },
+      {
+        "heading": "A useful diagnostic: what stops when one person leaves?",
+        "paragraphs": [
+          "Consider a hypothetical growing company in which the founder approves every significant purchase, senior appointment and customer exception. At an early stage, this arrangement may provide speed and direct control. As the business grows, the same system can become a bottleneck. Managers wait for approvals. Suppliers receive inconsistent answers. Staff learn that initiative is risky because the final decision sits elsewhere.",
+          "The problem should not be framed simply as the founder's inability to delegate. Delegation without clear limits, relevant information and competent support can create new risks. A functioning management system needs defined responsibilities, escalation rules, appropriate controls and a way of learning from exceptions."
+        ]
+      },
+      {
+        "heading": "Five questions to examine",
+        "paragraphs": [
+          "Who has the authority? Decision rights must be understandable in practice, not only shown on an organization chart. A manager should know what can be approved, what must be escalated and when to seek independent review.",
+          "Where is the evidence? Good decisions require information that is timely, relevant and sufficiently reliable. A complex report that arrives too late may be less useful than a concise dashboard that highlights exceptions while there is still time to respond.",
+          "What happens when something goes wrong? The organization needs a way to identify errors, investigate causes and correct the process without automatically turning every failure into a search for someone to blame.",
+          "Can another capable person perform the task? This question tests whether knowledge is embedded in the system or held informally by an individual.",
+          "Does the process improve over time? Procedures should be reviewed when the context changes. A control designed for yesterday's transaction volume may become inadequate tomorrow."
+        ]
+      },
+      {
+        "heading": "Systems do not eliminate judgment",
+        "paragraphs": [
+          "There is a danger in treating system design as a quest to remove people from important decisions. That would misunderstand the purpose. A good system supports judgment by clarifying information and responsibility. It does not pretend that every difficult situation can be reduced to a rule.",
+          "Strong institutions combine repeatable processes with the ability to recognize exceptions. Staff must be trained not only to follow procedures but to understand why those procedures exist and when escalation is necessary."
+        ]
+      },
+      {
+        "heading": "The measure of resilience",
+        "paragraphs": [
+          "An organization is not necessarily strong because its most capable people work late and rescue problems. It is stronger when ordinary work can be completed dependably, errors are visible, decisions are explainable and people can grow into responsibility.",
+          "The aim is not to make talent less important. It is to make talent more productive by reducing the avoidable disorder around it."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "governance-between-board-meetings",
+    "route": "/insights/governance-between-board-meetings",
+    "title": "Corporate Governance Happens Between Board Meetings",
+    "deck": "An effective board matters, but governance becomes real through the information, behavior and decisions that connect oversight to everyday work.",
+    "description": "An effective board matters, but governance becomes real through the information, behavior and decisions that connect oversight to everyday work.",
+    "excerpt": "An effective board matters, but governance becomes real through the information, behavior and decisions that connect oversight to everyday work.",
+    "category": "Governance & accountability",
+    "tags": [
+      "Governance",
+      "accountability"
+    ],
+    "contentType": "insight",
+    "type": "insight",
+    "datePublished": null,
+    "dateUpdated": "2026-11-07",
+    "status": "draft",
+    "author": "Shubhankar Shil, FCA",
+    "featuredImage": null,
+    "featuredImageAlt": "",
+    "sources": [],
+    "seoTitle": "Corporate Governance Happens Between Board Meetings | Shubhankar Shil",
+    "seoDescription": "An effective board matters, but governance becomes real through the information, behavior and decisions that connect oversight to everyday work.",
+    "relatedSlugs": [],
+    "body": [
+      {
+        "heading": "The question",
+        "paragraphs": [
+          "Organizations often describe governance in terms of boards, committees, policies and statutory requirements. These are important components. They establish roles and formal channels of accountability. Yet governance cannot be understood from meeting schedules and organizational documents alone.",
+          "The practical question is what happens between meetings. Does management information reach the right people in time? Can concerns be raised without being suppressed? Are exceptions recorded? Do decision-makers understand the limits of the evidence they receive? Are incentives pushing the organization toward responsible behavior or merely attractive short-term results?",
+          "A board can ask sophisticated questions but still struggle if the information presented is incomplete, filtered or detached from operational reality."
+        ]
+      },
+      {
+        "heading": "The information problem",
+        "paragraphs": [
+          "Oversight depends on the quality of reporting. A financial report may be accurate but fail to explain why a trend is emerging. A risk register may be comprehensive but too static to guide action. A management presentation may contain reassuring commentary without making the underlying assumptions visible.",
+          "It is therefore useful to distinguish data from insight. Data describes a condition. Insight helps explain its significance, uncertainty and implications for a decision.",
+          "For example, increasing revenue might look favorable. A board may also need to understand how much working capital is tied up in the increase, whether collections are weakening, whether customer concentration is rising and whether operational capability is keeping pace."
+        ]
+      },
+      {
+        "heading": "Independence must have a practical function",
+        "paragraphs": [
+          "The role of independent and non-executive directors is a serious research and policy question. Their presence can contribute to oversight, but formal board composition alone cannot prove that governance is effective. The contribution of any director depends in part on relevant expertise, access to credible information, preparation, the ability to challenge assumptions and a willingness to exercise judgment.",
+          "These concerns connect to the questions examined in the 2024 book chapter co-authored by Abul Fazal Wazir Ahmad and Shubhankar Shil on independent and non-executive directors and firm performance in Bangladesh. Readers interested in the empirical research should consult the original chapter rather than assume that one general rule fits all firms."
+        ]
+      },
+      {
+        "heading": "Governance is also operational",
+        "paragraphs": [
+          "A well-designed escalation process matters. So does clarity about who can override a control and under what conditions. Procurement, finance, human resources and technology systems all create situations where governance is exercised or weakened.",
+          "This is particularly relevant to businesses in transition. When a growing enterprise moves from informal founder-led decisions to more distributed management, governance cannot be reduced to the appointment of a board. The operating model must mature too."
+        ]
+      },
+      {
+        "heading": "Useful questions for leaders",
+        "paragraphs": [
+          "What would an independent observer find difficult to explain about our decision-making? Which risks appear in reports but rarely receive follow-up? Can management describe the consequences of a decision in terms other than immediate profit? Which decisions depend too heavily on relationships rather than documented authority? What information would we need to discover an emerging problem earlier?",
+          "There is no universal checklist that substitutes for institutional judgment. But these questions can expose the distance between formal governance and actual practice.",
+          "Governance earns its value through decisions people can understand, challenge and trust. Much of that work happens long before the next board meeting begins."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "technology-cannot-repair-a-broken-process",
+    "route": "/insights/technology-cannot-repair-a-broken-process",
+    "title": "Technology Cannot Repair a Process We Refuse to Understand",
+    "deck": "The promise of automation is real. Its benefits depend on whether the organization understands the decisions and information moving through the process.",
+    "description": "The promise of automation is real. Its benefits depend on whether the organization understands the decisions and information moving through the process.",
+    "excerpt": "The promise of automation is real. Its benefits depend on whether the organization understands the decisions and information moving through the process.",
+    "category": "Technology & management systems",
+    "tags": [
+      "Technology",
+      "management systems"
+    ],
+    "contentType": "insight",
+    "type": "insight",
+    "datePublished": null,
+    "dateUpdated": "2026-11-07",
+    "status": "draft",
+    "author": "Shubhankar Shil, FCA",
+    "featuredImage": null,
+    "featuredImageAlt": "",
+    "sources": [],
+    "seoTitle": "Technology Cannot Repair a Process We Refuse to Understand | Shubhankar Shil",
+    "seoDescription": "The promise of automation is real. Its benefits depend on whether the organization understands the decisions and information moving through the process.",
+    "relatedSlugs": [],
+    "body": [
+      {
+        "heading": "The question",
+        "paragraphs": [
+          "Technology projects are often introduced with familiar promises: faster work, fewer errors, better visibility and lower administrative cost. Those outcomes are possible. They are not automatic.",
+          "When an organization digitizes a poorly understood process, it may replace visible confusion with faster, less visible confusion. Approvals that were unnecessary on paper remain unnecessary on a screen. Inconsistent information becomes inconsistent data. Responsibilities that were unclear before implementation may become embedded in system permissions and workflows.",
+          "The technical team may deliver exactly what was requested and still fail to improve how the organization works. That is not necessarily a software failure. It may be a failure to define the operational problem."
+        ]
+      },
+      {
+        "heading": "Begin with work, not features",
+        "paragraphs": [
+          "Imagine an organization seeking an enterprise resource planning system for purchasing, inventory and payments. Before evaluating products, it should be able to explain how purchase requests are initiated, who assesses need, how suppliers are selected, what counts as acceptable evidence of receipt and how exceptions are reviewed.",
+          "This is a hypothetical example, but the diagnostic principle is general. Without process clarity, the most important requirements may be omitted and the least valuable features may dominate attention.",
+          "A useful preliminary exercise maps the work from beginning to end, identifies the decisions made along the way and notes where information is created or changed. It should also ask which steps are necessary for control and which exist simply because they have always existed."
+        ]
+      },
+      {
+        "heading": "Data quality is an institutional responsibility",
+        "paragraphs": [
+          "No reporting tool can make unreliable source data dependable through presentation alone. Accurate information requires clear definitions, appropriate access, validation, review and ownership.",
+          "If departments interpret a cost category differently, an attractive dashboard will not resolve the disagreement. If master records are duplicated, automated reports may amplify the inconsistency. If people can modify key information without traceable authorization, digital convenience can create a new accountability risk.",
+          "Technology design is therefore inseparable from governance design."
+        ]
+      },
+      {
+        "heading": "Adoption is more than training",
+        "paragraphs": [
+          "Users may resist a system for reasons that have little to do with technical competence. Perhaps the new process increases work without removing old obligations. Perhaps the system creates responsibilities without giving people the authority to fulfil them. Perhaps supervisors continue to demand parallel spreadsheet reports, making the promised efficiency impossible.",
+          "Training helps, but leaders must also revise practices, explain decisions and monitor the actual work after launch. A project should be evaluated by improvements in performance and accountability, not simply by whether software is running."
+        ]
+      },
+      {
+        "heading": "What to measure",
+        "paragraphs": [
+          "Useful measures might include cycle time, error frequency, reconciliation effort, exception resolution, data completeness and the share of approvals completed within agreed timelines. The appropriate measures depend on the process and the organization. A claim of efficiency should ideally compare a credible baseline with results after implementation.",
+          "Even then, attribution needs care. A reduction in processing time may reflect staffing changes, revised policies or seasonal volume, not only software."
+        ]
+      },
+      {
+        "heading": "Technology should make good work easier",
+        "paragraphs": [
+          "The strongest digital projects begin with a clear operational question and end with a process that people can understand, operate and improve. Technology can give institutions remarkable capability. It cannot replace the leadership responsibility to decide what the organization is trying to do and why."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "credit-ratings-incentives-and-trust",
+    "route": "/insights/credit-ratings-incentives-and-trust",
+    "title": "Credit Ratings, Incentives and the Problem of Trust",
+    "deck": "A credit rating is a judgment intended to inform risk assessment. Understanding the incentives and methods behind that judgment is part of using it responsibly.",
+    "description": "A credit rating is a judgment intended to inform risk assessment. Understanding the incentives and methods behind that judgment is part of using it responsibly.",
+    "excerpt": "A credit rating is a judgment intended to inform risk assessment. Understanding the incentives and methods behind that judgment is part of using it responsibly.",
+    "category": "Finance & markets",
+    "tags": [
+      "Finance",
+      "markets"
+    ],
+    "contentType": "insight",
+    "type": "insight",
+    "datePublished": null,
+    "dateUpdated": "2026-11-07",
+    "status": "draft",
+    "author": "Shubhankar Shil, FCA",
+    "featuredImage": null,
+    "featuredImageAlt": "",
+    "sources": [],
+    "seoTitle": "Credit Ratings, Incentives and the Problem of Trust | Shubhankar Shil",
+    "seoDescription": "A credit rating is a judgment intended to inform risk assessment. Understanding the incentives and methods behind that judgment is part of using it responsibly.",
+    "relatedSlugs": [],
+    "body": [
+      {
+        "heading": "The question",
+        "paragraphs": [
+          "Financial markets depend on information that participants can evaluate. Credit ratings can help translate complex information about a borrower or instrument into a more accessible assessment of credit risk. They can support comparison and market discipline. But they are not a substitute for independent judgment.",
+          "A rating is produced within an institutional and commercial system. The quality of that system matters as much as the label attached to the final opinion."
+        ]
+      },
+      {
+        "heading": "The incentive question",
+        "paragraphs": [
+          "One established concern in the study of rating agencies is the issuer-pays model, in which the entity being assessed provides revenue to the agency performing the assessment. That relationship does not establish that a particular rating is biased. It does create an incentive structure that needs careful governance, professional standards and scrutiny.",
+          "Competition adds another complication. A market may benefit from multiple providers, but competition can also create pressure when issuers choose between agencies. The concern is whether agencies can remain independent and methodologically consistent while competing for assignments.",
+          "These issues were central to Shubhankar Shil's 2015 paper, An Exploratory Study on Bangladesh's Emerging Credit Rating Industry, published in Independent Business Review. The paper examines conflicts of interest and the potential for rating shopping in the context of Bangladesh's credit-rating sector."
+        ]
+      },
+      {
+        "heading": "What should a user of ratings ask?",
+        "paragraphs": [
+          "First, what exactly is rated? A corporate issuer, a specific debt instrument and a short-term obligation do not necessarily carry identical risks. The scope of a rating must be clear.",
+          "Second, what information underlies the assessment? Public statements, management information, financial results and sector assumptions may each affect the judgment. Users should be able to locate the relevant methodology and understand important limitations.",
+          "Third, how current is the assessment? Financial positions and external conditions change. A rating is attached to a period and a set of circumstances; it should not be treated as permanent.",
+          "Fourth, what does the rating not tell us? Even a useful credit opinion may not cover market price risk, liquidity, fraud exposure or every factor affecting an investment decision.",
+          "Finally, how does the agency manage potential conflicts? Governance arrangements, disclosure and methodological consistency deserve attention."
+        ]
+      },
+      {
+        "heading": "The danger of over-simplification",
+        "paragraphs": [
+          "A familiar category or symbol can make a judgment seem more certain than it is. Investors and managers may then treat the symbol as a replacement for evaluating cash flows, contractual terms, collateral, governance or economic conditions.",
+          "That would be a mistake. Ratings should be one input among several. The weight placed on them should reflect the decision being made and the potential consequences of error."
+        ]
+      },
+      {
+        "heading": "Trust must be earned repeatedly",
+        "paragraphs": [
+          "The value of a credit-rating system depends on the integrity of its methods, the clarity of its disclosures and the capacity of market participants to question its conclusions. Regulators, issuers, rating agencies and investors each have responsibilities, but those responsibilities are not identical.",
+          "A trustworthy financial system does not eliminate disagreement. It allows judgments to be examined and revised in the light of evidence."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "what-universities-should-assess",
+    "route": "/insights/what-universities-should-assess",
+    "title": "What Should Universities Actually Assess?",
+    "deck": "Assessment should reveal whether learners can explain, apply and question knowledge, not only reproduce it under examination conditions.",
+    "description": "Assessment should reveal whether learners can explain, apply and question knowledge, not only reproduce it under examination conditions.",
+    "excerpt": "Assessment should reveal whether learners can explain, apply and question knowledge, not only reproduce it under examination conditions.",
+    "category": "Education & human capability",
+    "tags": [
+      "Education",
+      "human capability"
+    ],
+    "contentType": "insight",
+    "type": "insight",
+    "datePublished": null,
+    "dateUpdated": "2026-11-07",
+    "status": "draft",
+    "author": "Shubhankar Shil, FCA",
+    "featuredImage": null,
+    "featuredImageAlt": "",
+    "sources": [],
+    "seoTitle": "What Should Universities Actually Assess? | Shubhankar Shil",
+    "seoDescription": "Assessment should reveal whether learners can explain, apply and question knowledge, not only reproduce it under examination conditions.",
+    "relatedSlugs": [],
+    "body": [
+      {
+        "heading": "The question",
+        "paragraphs": [
+          "A university assessment is an institutional statement about what counts as learning. If an examination rewards accurate recall, students will understandably invest in recall. If a course claims to develop analytical judgment but assesses only memorized definitions, its stated ambition and actual incentives do not align.",
+          "This mismatch matters because professional problems rarely announce which chapter or formula is required. People must recognize the problem, identify relevant information, make assumptions explicit and explain why a proposed answer is reasonable."
+        ]
+      },
+      {
+        "heading": "Knowledge is necessary, but not sufficient",
+        "paragraphs": [
+          "There is no convincing case for abandoning foundational knowledge. A finance student needs to understand the principles behind valuation. An accountant needs knowledge of reporting and control. A management student needs concepts that help describe organizations.",
+          "The issue is what follows. Can the student apply the principle to unfamiliar information? Can they explain the limitations of a model? Can they work with a colleague whose interpretation differs? Can they distinguish an ethical concern from a purely technical error?",
+          "Assessment should provide opportunities to demonstrate these capabilities."
+        ]
+      },
+      {
+        "heading": "Begin with the intended outcome",
+        "paragraphs": [
+          "Outcome-based education asks educators to be clear about what learners should be able to demonstrate. That sounds straightforward, but poorly phrased outcomes can remain broad enough to justify almost any assessment.",
+          "Consider the difference between 'understand corporate governance' and 'evaluate a proposed governance arrangement using evidence about decision rights, information flows, oversight and incentives'. The second is more demanding to teach and assess, but it also makes the intended performance more visible.",
+          "A well-designed assessment then selects tasks that make this performance observable: a case analysis, a policy critique, an oral explanation, a group exercise with individual accountability, or a written recommendation that identifies uncertainty."
+        ]
+      },
+      {
+        "heading": "Fairness, workload and feasibility",
+        "paragraphs": [
+          "There are trade-offs. Open-ended assessment can require more time to grade. Students may have uneven access to resources. Group assignments can conceal differences in contribution. A practical task may assess familiarity with a context rather than a general capability.",
+          "These concerns argue for thoughtful design, clear criteria and moderation rather than for abandoning richer assessment. A balanced assessment plan can combine foundational tests with applied tasks and transparent rubrics.",
+          "Feedback is equally important. A grade tells learners where they stand against a criterion. Useful feedback helps them understand why and what to improve."
+        ]
+      },
+      {
+        "heading": "The transition to work",
+        "paragraphs": [
+          "Employers often say they want graduates who can communicate, solve problems and take initiative. Universities should avoid making unverified claims of 'job readiness' based solely on course completion. It is more credible to show what a learner was required to demonstrate and how the evidence was evaluated.",
+          "Portfolios, presentations, supervised projects and simulations can help make that evidence visible when designed and assessed responsibly."
+        ]
+      },
+      {
+        "heading": "A more honest promise",
+        "paragraphs": [
+          "No university can eliminate uncertainty from a graduate's future. Nor should education be reduced to supplying immediate labor-market skills. Its deeper contribution is helping people become capable of continued learning and responsible judgment.",
+          "An assessment system should ask whether we are developing that capacity or merely recording temporary performance."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "family-business-succession-and-governance",
+    "route": "/insights/family-business-succession-and-governance",
+    "title": "Family Business Succession Is a Governance Question",
+    "deck": "Succession is not only a question of who inherits ownership. It is a question of how authority, information and responsibility will continue to function.",
+    "description": "Succession is not only a question of who inherits ownership. It is a question of how authority, information and responsibility will continue to function.",
+    "excerpt": "Succession is not only a question of who inherits ownership. It is a question of how authority, information and responsibility will continue to function.",
+    "category": "Governance & accountability / Strategy & operations",
+    "tags": [
+      "Governance",
+      "accountability",
+      "Strategy",
+      "operations"
+    ],
+    "contentType": "insight",
+    "type": "insight",
+    "datePublished": null,
+    "dateUpdated": "2026-11-07",
+    "status": "draft",
+    "author": "Shubhankar Shil, FCA",
+    "featuredImage": null,
+    "featuredImageAlt": "",
+    "sources": [],
+    "seoTitle": "Family Business Succession Is a Governance Question | Shubhankar Shil",
+    "seoDescription": "Succession is not only a question of who inherits ownership. It is a question of how authority, information and responsibility will continue to function.",
+    "relatedSlugs": [],
+    "body": [
+      {
+        "heading": "The question",
+        "paragraphs": [
+          "Family-owned enterprises often grow through the commitment and knowledge of a relatively small group of people. Their strengths can include long-term relationships, speed of decision-making and a deep understanding of the business. Those advantages deserve recognition. They can also become vulnerable when authority is concentrated in ways that are difficult to transfer.",
+          "Succession planning is commonly discussed in terms of choosing a successor. The organizational question is broader: what must remain dependable when roles change?"
+        ]
+      },
+      {
+        "heading": "Separate three kinds of responsibility",
+        "paragraphs": [
+          "Ownership gives a legitimate interest in the enterprise's value and direction. Governance concerns oversight, risk and accountability. Management concerns the daily allocation of resources and the delivery of results. In a founder-led company, these roles may be held by the same person. Growth and transition make it increasingly important to understand where one role ends and another begins.",
+          "A successor may be a capable owner without being the most suitable operating executive. A professional manager may be well qualified to lead without holding an ownership stake. A board or advisory structure may provide valuable challenge, but only if its authority and access to information are real.",
+          "There is no single arrangement suitable for every family enterprise. The aim is to make responsibilities discussable rather than leave them implicit."
+        ]
+      },
+      {
+        "heading": "Build continuity before the transition",
+        "paragraphs": [
+          "Important customer relationships, supplier agreements, banking arrangements, key approvals and knowledge of critical operations should not remain inaccessible to everyone except one individual. This is not a recommendation to remove confidentiality. It is a case for controlled documentation, appropriate delegation and continuity planning.",
+          "Families should also distinguish personal expectations from business requirements. Honest conversations about capability, readiness, conflict management and decision rights can be uncomfortable. Avoiding them is seldom a neutral choice."
+        ]
+      },
+      {
+        "heading": "Financial discipline supports trust",
+        "paragraphs": [
+          "Dependable reporting, clear related-party transaction procedures and transparent treatment of company resources can reduce ambiguity. These practices matter for internal family relationships and for lenders, minority investors, employees and other stakeholders.",
+          "Where external capital is considered, the governance question becomes still more visible. Investors may require clarity about rights, information, controls and dispute resolution. Such requirements should be understood as part of the relationship between control and capital, not merely as paperwork.",
+          "The topic also connects with Shubhankar Shil's listed conference research on Bangladeshi family firms and their attitudes toward raising external capital. Readers should consult the original conference material where available before drawing empirical conclusions."
+        ]
+      },
+      {
+        "heading": "A succession plan is a working system",
+        "paragraphs": [
+          "A useful plan addresses preparation, authority, reporting, dispute resolution, development of future leaders and arrangements for unexpected absence. It should be revisited as the business and family change.",
+          "The success of a transition should not depend entirely on a single ceremony or announcement. It should be reflected in the organization's continued ability to serve customers, meet obligations, retain confidence and make accountable decisions."
+        ]
+      }
     ]
   }
 ]
