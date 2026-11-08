@@ -1,25 +1,26 @@
 <section class="home-hero section-dark">
-  <div class="hero-orbit" aria-hidden="true"></div>
   <div class="container home-hero-grid">
+    <div class="hero-stage">
+      <h1 class="hero-title hero-title-back" aria-label="I began with numbers. The work has always been about people.">
+        <span class="hero-title-line">I began with <em>numbers.</em></span>
+        <span class="hero-title-line">The work has always</span>
+        <span class="hero-title-line">been about <strong>people.</strong></span>
+      </h1>
+      <figure class="hero-portrait">
+        <img src="<%= asset('assets/images/profile/shubhankar-shil-chair-v3.png') %>" width="1024" height="971" alt="Portrait of Shubhankar Shil wearing a suit, smiling toward the camera.">
+      </figure>
+    </div>
     <div class="hero-copy">
-      <p class="eyebrow eyebrow-light"><%= page.data.eyebrow %></p>
-      <h1>I began with <em>numbers.</em><br>The work has always<br>been about <span>people.</span></h1>
       <p class="hero-intro"><%= page.data.lead %></p>
       <div class="hero-actions"><a class="button button-gold" href="<%= urlFor('/about/') %>">Discover my story</a><a class="text-link text-link-light" href="<%= urlFor('/work/') %>">Explore my work <span aria-hidden="true">&#8599;</span></a></div>
     </div>
-    <figure class="hero-portrait">
-      <div class="portrait-disc" aria-hidden="true"></div>
-      <img src="<%= asset('assets/images/profile/shubhankar-shil-chair-v3.png') %>" width="1024" height="971" alt="Portrait of Shubhankar Shil wearing a suit, smiling toward the camera.">
-      <figcaption><span><%= page.data.portraitLabel %></span><span>Dhaka, Bangladesh</span></figcaption>
-    </figure>
   </div>
-  <div class="container scroll-cue"><span>There is more to the story</span><span aria-hidden="true">&darr;</span></div>
 </section>
 <section class="section story-thread"><div class="container split-heading"><div><p class="eyebrow">A thread through the years</p><h2><%= page.data.threadHeading %></h2></div><div class="prose-large"><% page.data.threadCopy.forEach((p) => { %><p><%= p %></p><% }) %><p class="pull-line">The work is never only about systems. It is also about the people expected to make those systems work.</p></div></div></section>
 <section class="section threads"><div class="container"><header class="section-heading"><p class="eyebrow">Where my work meets</p><h2>Three paths. <em>One continuing conversation.</em></h2></header><div class="thread-grid"><% page.data.threads.forEach((item) => { %><article class="thread-card"><span class="card-number"><%= item.number %></span><p class="eyebrow"><%= item.label %></p><h3><%= item.title %></h3><p><%= item.body %></p><a class="arrow-link" href="<%= urlFor(item.route) %>#<%= item.anchor %>">Explore <span aria-hidden="true">&#8599;</span></a></article><% }) %></div></div></section>
 <section class="statement-band"><div class="container"><p class="eyebrow eyebrow-light">What connects it all</p><blockquote><%= page.data.statement %></blockquote></div></section>
 <section class="section journey"><div class="container journey-grid"><div class="journey-intro"><p class="eyebrow">Selected milestones</p><h2>The journey,<br><em>in chapters.</em></h2><a class="button button-outline" href="<%= urlFor('/about/') %>">Read the full journey</a></div><ol class="timeline"><% page.data.milestones.forEach((item) => { %><li><span class="timeline-year"><%= item.year %></span><div><h3><%= item.title %></h3><p><%= item.body %></p></div></li><% }) %></ol></div></section>
-<section class="section feature-note"><div class="container feature-note-grid"><figure><img src="<%= asset('assets/images/profile/8a836ee1-8391-44b6-8f02-d7aba95e136f.png') %>" width="1206" height="1304" loading="lazy" alt="Shubhankar Shil in a professional portrait."></figure><div><p class="eyebrow">A personal note</p><h2>The classroom and the boardroom have more in common than we think.</h2><p>Both require evidence. Both require judgment. Both demand the confidence to recognize when an established way of working needs to change.</p><a class="arrow-link" href="<%= urlFor('/blogs/why-the-classroom-and-boardroom-belong-together/') %>">Read the story <span aria-hidden="true">&#8599;</span></a></div></div></section>
+<section class="section feature-note"><div class="container feature-note-grid"><figure><img src="<%= asset('assets/images/profile/8a836ee1-8391-44b6-8f02-d7aba95e136f.png') %>" width="1206" height="1304" loading="lazy" alt="Shubhankar Shil in a professional portrait."></figure><div><p class="eyebrow">A personal note</p><h2>The classroom and the workplace have more in common than we think.</h2><p>Both require evidence. Both require judgment. Both demand the confidence to recognize when an established way of working needs to change.</p><a class="arrow-link" href="<%= urlFor('/blogs/why-the-classroom-and-workplace-belong-together/') %>">Read the story <span aria-hidden="true">&#8599;</span></a></div></div></section>
 <section class="section writing-preview"><div class="container"><div class="split-heading"><div><p class="eyebrow">Blogs & insights</p><h2>Ideas from the work.<br><em>Questions worth keeping.</em></h2></div><p>Draft essays are available in editorial preview and remain clearly marked until author approval.</p></div><% if (articles.length) { %><div class="article-grid"><% articles.slice(0,3).forEach((article) => { %><%- include('../components/article-card.ejs', { article }) %><% }) %></div><% } else { %><div class="empty-editorial"><h3>Writing is in editorial review.</h3><p>Drafts remain private until the author approves them for publication.</p></div><% } %><div class="section-actions"><a class="button button-outline" href="<%= urlFor('/blogs/') %>">Browse blogs</a><a class="button button-outline" href="<%= urlFor('/insights/') %>">Explore insights</a></div></div></section>
 <%- include('../components/cta.ejs', { cta: { eyebrow: 'Start a conversation', title: 'Progress is not something we build alone.', body: 'Good ideas need people willing to test them. Institutions need systems that earn trust.', label: 'Let\'s connect' } }) %>
 
