@@ -23,7 +23,7 @@
     "authors": "Shubhankar Shil",
     "outlet": "Independent Business Review, 7(2)",
     "type": "Journal article",
-    "url": "https://usb.ulab.edu.bd/faculty/shubhankar-shil",
+    "url": "https://doi.org/10.67508/iub.ibr.v7n2.005",
     "featured": true
   },
   {
@@ -32,7 +32,8 @@
     "authors": "Shubhankar Shil and Shoaib Ahmed",
     "outlet": "Independent Business Review",
     "type": "Journal article",
-    "url": "https://usb.ulab.edu.bd/faculty/shubhankar-shil",
+    "url": "https://ibr.iub.edu.bd/ibr/article/download/65/69/192",
+    "linkLabel": "Read paper",
     "featured": false
   },
   {
@@ -41,7 +42,8 @@
     "authors": "Shubhankar Shil, Nadim Jahangir and Noorjahan Parvez",
     "outlet": "Journal of Behavioural Sciences, University of the Punjab",
     "type": "Journal article",
-    "url": "https://usb.ulab.edu.bd/faculty/shubhankar-shil",
+    "url": "https://pu.edu.pk/images/journal/doap/PDF-FILES/3%20Factors_Influencing_Customers_willingness_.pdf",
+    "linkLabel": "Read paper",
     "featured": false
   },
   {
@@ -50,7 +52,8 @@
     "authors": "Shubhankar Shil, Amlan J. Haque and Nadim Jahangir",
     "outlet": "ABAC Journal",
     "type": "Journal article",
-    "url": "https://assumptionjournal.au.edu/index.php/abacjournal/article/view/577",
+    "url": "https://assumptionjournal.au.edu/index.php/abacjournal/article/download/577/515/1145",
+    "linkLabel": "Read paper",
     "featured": false
   },
   {
@@ -59,16 +62,16 @@
     "authors": "Shubhankar Shil and Nadim Jahangir",
     "outlet": "Udyog Pragati, 31(3)",
     "type": "Journal article",
-    "url": "https://usb.ulab.edu.bd/faculty/shubhankar-shil",
+    "url": null,
     "featured": false
   },
   {
     "year": 2006,
     "title": "Village Phone: Expectation vs. Execution",
     "authors": "Shubhankar Shil and Amlan J. Haque",
-    "outlet": "The Journal of Social Studies, 112(4), as listed by ULAB",
+    "outlet": "The Journal of Social Studies, 112(4)",
     "type": "Journal article",
-    "url": "https://usb.ulab.edu.bd/faculty/shubhankar-shil",
+    "url": null,
     "featured": false
   }
 ]

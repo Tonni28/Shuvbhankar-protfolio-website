@@ -155,12 +155,12 @@
         }
       ],
       "credentials": [
-        "Fellow Chartered Accountant (FCA), Institute of Chartered Accountants of Bangladesh — 1999, according to ULAB",
+        "Fellow Chartered Accountant (FCA), Institute of Chartered Accountants of Bangladesh — 1999",
         "MBA in Finance, Institute of Business Administration, University of Dhaka — 2002",
         "BBA, Khulna University — 1996",
-        "Assistant Professor, ULAB — from 15 January 2011, per ULAB",
-        "Governance Specialist, World Bank South Asia Region — 22 July 2006 to 17 October 2010, per ULAB",
-        "Founder and Managing Partner, JKMNS, Chartered Accountants — per JKMNS"
+        "Assistant Professor, ULAB — from 15 January 2011",
+        "Governance Specialist, World Bank South Asia Region — 22 July 2006 to 17 October 2010",
+        "Founder and Managing Partner, JKMNS, Chartered Accountants"
       ],
       "interests": [
         "Corporate governance and accountability",
@@ -265,7 +265,7 @@
     "description": "Essays and research-informed analysis on governance, organizational design, finance, technology, education and institutional performance.",
     "navigationLabel": "Insights",
     "data": {
-      "eyebrow": "Insights / Research-informed writing",
+      "eyebrow": "Insights",
       "heading": "The questions behind better decisions.",
       "lead": "Good management requires more than confidence. It requires understanding the evidence, noticing what a system rewards, asking whose perspective is missing and being willing to revise an approach when the facts change.",
       "topics": [
@@ -288,24 +288,6 @@
       "eyebrow": "Contact",
       "heading": "A good conversation usually begins with a good question.",
       "lead": "If you are working through a difficult organizational issue, developing an educational initiative, inviting a speaker or exploring a research collaboration, I would be interested in understanding what you are trying to achieve.",
-      "routes": [
-        [
-          "Organizations & advisory",
-          "Governance, management systems, financial and operational improvement, growth and transformation."
-        ],
-        [
-          "Universities & research",
-          "Guest sessions, curriculum conversations, research partnerships and education quality."
-        ],
-        [
-          "Speaking & events",
-          "Lectures, executive conversations, conferences and focused professional learning sessions."
-        ],
-        [
-          "Mentorship & career guidance",
-          "Structured initiatives, group learning programs or suitable educational collaborations."
-        ]
-      ],
       "categories": [
         "Advisory / Organizational Work",
         "Academic Collaboration",
@@ -327,60 +309,49 @@
       "heading": "Research begins when the familiar explanation is no longer enough.",
       "lead": "Academic inquiry gives us a disciplined way to examine governance, accounting, finance, markets and the institutional conditions that shape business behavior.",
       "conferences": [
-        "2024 — Control and Capital: Bangladeshi Family Firms' Attitude to Raise External Capital — India Finance Conference, IIM Raipur",
-        "2024 — An Exploratory Study on Emerging Technologies in Bangladeshi Industries — IIM Shillong",
-        "2024 — Independent and Nonexecutive Directors, Corporate Governance and Firm Performance in Bangladesh — University College of Bahrain",
-        "2016 — Rural Marketing in Bangladesh — University of Miami",
-        "2015 — Clash in Corporate Rating — India Finance Conference, IIM Calcutta",
-        "2014 — A Financial Diagnosis into the Cost of Capital, Capital Structure and Firms' Performances — India Finance Conference, IIM Bangalore"
+        "Shil, S. & Ahmad, A. W. (2024). Are Independent and Nonexecutive Directors Improving Corporate Governance and Firm Performance: An Evince from Bangladesh. International Conference of Business and Innovative Technology (ICBIT), University College of Bahrain.",
+        "Shil, S. (2024). Control and Capital: Bangladeshi Family Firms’ Attitude to Raise External Capital. India Finance Conference 2024 at IIM (IIM–Raipur), Chhattisgarh, India.",
+        "Shil, S. (2024). An Exploratory Study on Emerging Technologies in Bangladeshi Industries. International Conference on Leveraging Emerging Technologies and Analytics for Development (LEAD), IIM Shillong, India.",
+        "Shil, S. (2016). Rural Marketing in Bangladesh. International Conference on Global Strategy and Emerging Markets, Center for International Business Education and Research, University of Miami, USA.",
+        "Shil, S. (2015). Clash in Corporate Rating: A Study on Competition Among Credit Rating Agencies and Their Neutrality in Rating, a Bangladeshi Perspective. India Finance Conference 2015 at IIM Calcutta, Kolkata, India.",
+        "Shil, S. (2014). A Financial Diagnosis into the Cost of Capital, Capital Structure, and Firms’ Performances: Evidence from Listed Companies in Bangladesh. India Finance Conference 2014 at IIM Bangalore, India."
       ]
     }
   },
   {
     "route": "/speaking/",
     "template": "speaking",
-    "title": "Speaking & Collaboration | Shubhankar Shil",
-    "description": "Proposed discussion themes in governance, management, organizational transformation, higher education and professional development.",
+    "title": "Speaking & Videos | Shubhankar Shil",
+    "description": "Watch Shubhankar Shil discuss career development, personal agency, business relationships and income tax.",
     "navigationLabel": "Speaking",
     "data": {
-      "eyebrow": "Speaking & collaboration",
-      "heading": "The most useful talks often leave a room with better questions.",
-      "lead": "A lecture, professional discussion or workshop should do more than deliver information. It should help participants recognize a problem more clearly, challenge an assumption and take something practical back to their work.",
-      "topics": [
-        [
-          "Governance beyond compliance",
-          "Connect formal responsibilities with everyday reporting, decision-making and accountability."
-        ],
-        [
-          "Designing organizations that do not depend on heroes",
-          "How decision rights, information flows, systems and leadership behavior influence resilience."
-        ],
-        [
-          "The university-to-work transition",
-          "Why graduates need knowledge, communication, application, comfort with uncertainty and feedback."
-        ],
-        [
-          "Technology and the discipline of process design",
-          "What managers should understand before automating work."
-        ],
-        [
-          "Family businesses and institutional continuity",
-          "The links among succession, governance, professional management and access to capital."
-        ],
-        [
-          "Teaching judgment in a changing economy",
-          "How business education can assess reasoning, application and responsibility."
-        ]
+      "eyebrow": "Speaking",
+      "heading": "Ideas for taking charge of work, careers and business.",
+      "lead": "A collection of practical conversations on personal development, professional relationships and financial understanding.",
+      "channelUrl": "https://www.youtube.com/@shubhankarconsulting527/videos",
+      "videos": [
+        {
+          "id": "mMRH3PGRXc0",
+          "title": "Let's take charge of our career by self-development of our own success metrics and work on the same",
+          "url": "https://www.youtube.com/watch?v=mMRH3PGRXc0"
+        },
+        {
+          "id": "mPbtpxbIn0I",
+          "title": "How a person can take the charge of his life and career",
+          "url": "https://www.youtube.com/watch?v=mPbtpxbIn0I"
+        },
+        {
+          "id": "0w0LlgCiAqI",
+          "title": "How we can build a strong business relationship",
+          "url": "https://www.youtube.com/watch?v=0w0LlgCiAqI"
+        },
+        {
+          "id": "QFJJRLU6VRk",
+          "title": "Let's discuss about Income TAX | Part 2",
+          "url": "https://www.youtube.com/watch?v=QFJJRLU6VRk"
+        }
       ],
-      "formats": [
-        "Keynote conversation",
-        "Moderated discussion",
-        "Faculty development session",
-        "Executive seminar",
-        "Student masterclass",
-        "Panel participation",
-        "Collaborative workshop"
-      ]
+      "channelName": "Shubhankar Consulting"
     }
   },
   {

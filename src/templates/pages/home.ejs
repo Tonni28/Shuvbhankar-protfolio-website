@@ -20,8 +20,44 @@
 <section class="section threads"><div class="container"><header class="section-heading"><p class="eyebrow">Where my work meets</p><h2>Three paths. <em>One continuing conversation.</em></h2></header><div class="thread-grid"><% page.data.threads.forEach((item) => { %><article class="thread-card"><span class="card-number"><%= item.number %></span><p class="eyebrow"><%= item.label %></p><h3><%= item.title %></h3><p><%= item.body %></p><a class="arrow-link" href="<%= urlFor(item.route) %>#<%= item.anchor %>">Explore <span aria-hidden="true">&#8599;</span></a></article><% }) %></div></div></section>
 <section class="statement-band"><div class="container"><p class="eyebrow eyebrow-light">What connects it all</p><blockquote><%= page.data.statement %></blockquote></div></section>
 <section class="section journey"><div class="container journey-grid"><div class="journey-intro"><p class="eyebrow">Selected milestones</p><h2>The journey,<br><em>in chapters.</em></h2><a class="button button-outline" href="<%= urlFor('/about/') %>">Read the full journey</a></div><ol class="timeline"><% page.data.milestones.forEach((item) => { %><li><span class="timeline-year"><%= item.year %></span><div><h3><%= item.title %></h3><p><%= item.body %></p></div></li><% }) %></ol></div></section>
-<section class="section feature-note"><div class="container feature-note-grid"><figure><img src="<%= asset('assets/images/profile/8a836ee1-8391-44b6-8f02-d7aba95e136f.png') %>" width="1206" height="1304" loading="lazy" alt="Shubhankar Shil in a professional portrait."></figure><div><p class="eyebrow">A personal note</p><h2>The classroom and the workplace have more in common than we think.</h2><p>Both require evidence. Both require judgment. Both demand the confidence to recognize when an established way of working needs to change.</p><a class="arrow-link" href="<%= urlFor('/blogs/why-the-classroom-and-workplace-belong-together/') %>">Read the story <span aria-hidden="true">&#8599;</span></a></div></div></section>
-<section class="section writing-preview"><div class="container"><div class="split-heading"><div><p class="eyebrow">Blogs & insights</p><h2>Ideas from the work.<br><em>Questions worth keeping.</em></h2></div><p>Draft essays are available in editorial preview and remain clearly marked until author approval.</p></div><% if (articles.length) { %><div class="article-grid"><% articles.slice(0,3).forEach((article) => { %><%- include('../components/article-card.ejs', { article }) %><% }) %></div><% } else { %><div class="empty-editorial"><h3>Writing is in editorial review.</h3><p>Drafts remain private until the author approves them for publication.</p></div><% } %><div class="section-actions"><a class="button button-outline" href="<%= urlFor('/blogs/') %>">Browse blogs</a><a class="button button-outline" href="<%= urlFor('/insights/') %>">Explore insights</a></div></div></section>
+<section class="home-research-cta">
+  <div class="container home-research-cta-inner">
+    <div>
+      <p class="eyebrow">Research & publications</p>
+      <h2>Questions examined with evidence.</h2>
+    </div>
+    <div>
+      <p>Explore research into governance, accounting, finance and the institutional conditions that shape business decisions.</p>
+      <a class="button button-outline" href="<%= urlFor('/insights/research/') %>">Explore research</a>
+    </div>
+  </div>
+</section>
+<% const speakingPage = pages.find((item) => item.route === '/speaking/'); const homeVideos = speakingPage.data.videos.slice(0, 2); %>
+<section class="section section-dark home-videos-section">
+  <div class="container">
+    <div class="speaking-section-heading speaking-section-heading-dark">
+      <div>
+        <p class="eyebrow eyebrow-light">Video conversations</p>
+        <h2>Practical ideas for work, careers and business.</h2>
+      </div>
+      <a class="text-link text-link-light" href="<%= urlFor('/speaking/') %>#video-conversations">Explore all videos <span aria-hidden="true">&#8599;</span></a>
+    </div>
+    <div class="speaking-video-grid">
+      <% homeVideos.forEach((video) => { %>
+        <article class="speaking-video-card">
+          <div class="speaking-video">
+            <iframe src="https://www.youtube-nocookie.com/embed/<%= video.id %>" title="<%= video.title %>" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="speaking-video-card-copy">
+            <h3><%= video.title %></h3>
+            <a class="arrow-link arrow-light" href="<%= video.url %>" target="_blank" rel="noopener noreferrer">Watch on YouTube <span aria-hidden="true">&#8599;</span></a>
+          </div>
+        </article>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<section class="section writing-preview"><div class="container"><div class="split-heading"><div><p class="eyebrow">Blogs & insights</p><h2>Ideas from the work.<br><em>Questions worth keeping.</em></h2></div></div><% const homeBlogs = allArticles.filter((article) => article.type === 'blog').slice(0, 2); const homeInsights = allArticles.filter((article) => article.type === 'insight').slice(0, 2); %><section class="home-writing-group" aria-label="Blogs"><div class="article-grid"><% homeBlogs.forEach((article) => { %><%- include('../components/article-card.ejs', { article }) %><% }) %></div><div class="section-actions"><a class="button button-outline" href="<%= urlFor('/blogs/') %>">Browse blogs</a></div></section><section class="home-writing-group" aria-label="Insights"><div class="article-grid"><% homeInsights.forEach((article) => { %><%- include('../components/article-card.ejs', { article }) %><% }) %></div><div class="section-actions"><a class="button button-outline" href="<%= urlFor('/insights/') %>">Explore insights</a></div></section></div></section>
 <%- include('../components/cta.ejs', { cta: { eyebrow: 'Start a conversation', title: 'Progress is not something we build alone.', body: 'Good ideas need people willing to test them. Institutions need systems that earn trust.', label: 'Let\'s connect' } }) %>
 
 

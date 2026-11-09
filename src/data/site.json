@@ -7,8 +7,13 @@
   "basePath": "/",
   "defaultLocale": "en",
   "contact": {
-    "email": "",
+    "email": "shubhankaremail@yahoo.com",
     "formAction": ""
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/shubhankar-consulting",
+    "facebook": "https://www.facebook.com/shubhankarconsulting",
+    "youtube": "https://www.youtube.com/@shubhankarconsulting527/videos"
   },
   "externalLinks": {
     "jkmns": "https://jkmns.com/",

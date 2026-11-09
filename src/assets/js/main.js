@@ -1,17 +1,39 @@
 const navToggle=document.querySelector('.nav-toggle');
 const primaryNav=document.querySelector('.primary-nav');
 if(navToggle&&primaryNav){
+  const closeSubmenus=()=>primaryNav.querySelectorAll('.nav-item-has-children').forEach(item=>{
+    item.classList.remove('is-open');
+    const toggle=item.querySelector('.submenu-toggle');
+    if(toggle) toggle.setAttribute('aria-expanded','false');
+  });
   navToggle.addEventListener('click',()=>{
     const open=navToggle.getAttribute('aria-expanded')==='true';
     navToggle.setAttribute('aria-expanded',String(!open));
     primaryNav.classList.toggle('is-open',!open);
+    if(open) closeSubmenus();
     const label=navToggle.querySelector('.nav-toggle-label');
     if(label) label.textContent=open?'Menu':'Close';
   });
+  primaryNav.querySelectorAll('.submenu-toggle').forEach(toggle=>toggle.addEventListener('click',()=>{
+    const item=toggle.closest('.nav-item-has-children');
+    const open=toggle.getAttribute('aria-expanded')==='true';
+    closeSubmenus();
+    if(!open){
+      item.classList.add('is-open');
+      toggle.setAttribute('aria-expanded','true');
+    }
+  }));
   primaryNav.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{
     navToggle.setAttribute('aria-expanded','false');
     primaryNav.classList.remove('is-open');
+    closeSubmenus();
   }));
+  document.addEventListener('click',(event)=>{
+    if(!primaryNav.contains(event.target)&&event.target!==navToggle) closeSubmenus();
+  });
+  document.addEventListener('keydown',(event)=>{
+    if(event.key==='Escape') closeSubmenus();
+  });
 }
 document.querySelectorAll('[data-current-year]').forEach(node=>{node.textContent=String(new Date().getFullYear());});
 
@@ -81,7 +103,16 @@ if(copyButton){
     }catch{copyButton.textContent='Copy unavailable';}
   });
 }
-document.querySelector('[data-print]')?.addEventListener('click',()=>window.print());
+document.querySelectorAll('[data-social-share]').forEach(link=>{
+  const pageUrl=encodeURIComponent(window.location.href);
+  const pageTitle=encodeURIComponent(document.title);
+  const destinations={
+    linkedin:`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+    facebook:`https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`,
+    x:`https://twitter.com/intent/tweet?url=${pageUrl}&text=${pageTitle}`
+  };
+  link.href=destinations[link.dataset.socialShare]||'#';
+});
 
 const progress=document.querySelector('[data-reading-progress]');
 if(progress){

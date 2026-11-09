@@ -16,19 +16,25 @@
       "children": []
     },
     {
-      "label": "Blogs",
-      "route": "/blogs/",
-      "children": []
-    },
-    {
-      "label": "Insights",
-      "route": "/insights/",
-      "children": []
-    },
-    {
-      "label": "Contact",
-      "route": "/contact/",
-      "children": []
+      "label": "Resources",
+      "children": [
+        {
+          "label": "Research",
+          "route": "/insights/research/"
+        },
+        {
+          "label": "Insights",
+          "route": "/insights/"
+        },
+        {
+          "label": "Blogs",
+          "route": "/blogs/"
+        },
+        {
+          "label": "Speaking",
+          "route": "/speaking/"
+        }
+      ]
     }
   ],
   "footer": {
@@ -40,6 +46,12 @@
       {
         "label": "My Work",
         "route": "/work/"
+      }
+    ],
+    "resources": [
+      {
+        "label": "Research & Publications",
+        "route": "/insights/research/"
       },
       {
         "label": "Blogs",
@@ -50,15 +62,11 @@
         "route": "/insights/"
       },
       {
-        "label": "Research & Publications",
-        "route": "/insights/research/"
+        "label": "Speaking",
+        "route": "/speaking/"
       }
     ],
     "connect": [
-      {
-        "label": "Speaking & Collaboration",
-        "route": "/speaking/"
-      },
       {
         "label": "Contact",
         "route": "/contact/"

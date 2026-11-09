@@ -81,6 +81,7 @@ export async function buildSite({ silent = false, previewDrafts = process.env.SI
       navigation,
       pages,
       articles: visibleArticles,
+      allArticles: articles,
       publications,
       previewDrafts,
       page,

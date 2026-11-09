@@ -1,3 +1,52 @@
-<section class="page-hero section-dark"><div class="container page-hero-grid"><div><p class="eyebrow eyebrow-light"><%= page.data.eyebrow %></p><h1><%= page.data.heading %></h1></div><p class="hero-lead"><%= page.data.lead %></p></div></section><section class="section"><div class="container"><div class="section-heading"><p class="eyebrow">Proposed themes</p><h2>Ideas designed for useful discussion.</h2></div><ol class="speaking-list"><% page.data.topics.forEach((topic,i)=>{ %><li><span>0<%= i+1 %></span><div><h2><%= topic[0] %></h2><p><%= topic[1] %></p></div></li><% }) %></ol></div></section><section class="section section-teal"><div class="container speaking-formats"><div><p class="eyebrow eyebrow-light">Format options</p><h2>Shape the conversation to the room.</h2><div class="tag-cloud tag-cloud-dark"><% page.data.formats.forEach((item)=>{ %><span><%= item %></span><% }) %></div></div><div><h3>What to include in an invitation</h3><p>Share the event purpose, audience, preferred date, format, venue or online platform, session duration and expected contribution.</p><a class="button button-light" href="<%= urlFor('/contact/') %>?topic=speaking">Discuss an invitation</a></div></div></section>
+<section class="speaking-hero">
+  <figure class="speaking-hero-media">
+    <img src="<%= asset('assets/images/profile/Confident Speaker at the Podium.png') %>" width="1672" height="939" alt="Shubhankar Shil speaking at a podium." fetchpriority="high">
+  </figure>
+  <div class="container speaking-hero-inner">
+    <div class="speaking-hero-panel">
+      <h1><%= page.data.heading %></h1>
+      <p class="hero-lead"><%= page.data.lead %></p>
+      <a class="text-link" href="#video-conversations">Explore videos <span aria-hidden="true">&#8595;</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark speaking-videos-section" id="video-conversations">
+  <div class="container">
+    <div class="speaking-section-heading speaking-section-heading-dark">
+      <div>
+        <p class="eyebrow eyebrow-light">Video conversations</p>
+        <h2>Watch and continue the conversation.</h2>
+      </div>
+      <a class="text-link text-link-light" href="<%= page.data.channelUrl %>" target="_blank" rel="noopener noreferrer">Visit the YouTube channel <span aria-hidden="true">&#8599;</span></a>
+    </div>
+    <div class="speaking-video-grid">
+      <% page.data.videos.forEach((video) => { %>
+        <article class="speaking-video-card">
+          <div class="speaking-video">
+            <iframe src="https://www.youtube-nocookie.com/embed/<%= video.id %>" title="<%= video.title %>" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="speaking-video-card-copy">
+            <h3><%= video.title %></h3>
+            <a class="arrow-link arrow-light" href="<%= video.url %>" target="_blank" rel="noopener noreferrer">Watch on YouTube <span aria-hidden="true">&#8599;</span></a>
+          </div>
+        </article>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="section speaking-booking-section">
+  <div class="container speaking-booking-inner">
+    <div>
+      <p class="eyebrow">Speaking engagements</p>
+      <h2>Begin with the audience and the question that matters.</h2>
+    </div>
+    <div>
+      <p>Share the event purpose, audience, preferred date, format and the conversation you would like the session to open.</p>
+      <a class="button button-gold" href="<%= urlFor('/contact/') %>?topic=speaking">Discuss an engagement</a>
+    </div>
+  </div>
+</section>
 
 

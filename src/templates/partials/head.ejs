@@ -18,6 +18,6 @@
 <script type="application/ld+json"><%- JSON.stringify({'@context':'https://schema.org','@type':'Person',name:'Shubhankar Shil',honorificSuffix:'FCA',description:site.siteDescription,jobTitle:['Management Advisor','University Educator','Researcher'],affiliation:[{'@type':'Organization',name:'JKMNS, Chartered Accountants'},{'@type':'CollegeOrUniversity',name:'University of Liberal Arts Bangladesh'}]}) %></script>
 <% } %>
 <% if (page.template === 'article') { const article = page.data.article; %>
-<script type="application/ld+json"><%- JSON.stringify({'@context':'https://schema.org','@type':'Article',headline:article.title,description:article.description,author:{'@type':'Person',name:'Shubhankar Shil'},dateModified:article.dateUpdated || undefined}) %></script>
+<script type="application/ld+json"><%- JSON.stringify({'@context':'https://schema.org','@type':'Article',headline:article.title,description:article.description,author:{'@type':'Person',name:'Shubhankar Shil'},datePublished:article.datePublished || undefined,dateModified:article.dateUpdated || undefined}) %></script>
 <% } %>
 

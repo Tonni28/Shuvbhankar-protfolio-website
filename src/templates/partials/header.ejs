@@ -5,9 +5,20 @@
     </a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span class="nav-toggle-label">Menu</span><span class="nav-toggle-lines" aria-hidden="true"></span></button>
     <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation">
-      <ul>
-        <% navigation.primary.forEach((item) => { const current = item.route === page.route || (item.route !== '/' && page.route.startsWith(item.route)); %>
-          <li><a href="<%= urlFor(item.route) %>"<% if (current) { %> aria-current="page"<% } %>><%= item.label %></a></li>
+      <ul class="nav-list">
+        <% navigation.primary.forEach((item, index) => { const hasChildren = Array.isArray(item.children) && item.children.length > 0; const current = item.route && (item.route === page.route || (item.route !== '/' && page.route.startsWith(item.route))); const childCurrent = hasChildren && item.children.some((child) => child.route === page.route || (child.route !== '/' && page.route.startsWith(child.route))); %>
+          <li class="nav-item<%= hasChildren ? ' nav-item-has-children' : '' %>">
+            <% if (hasChildren) { %>
+              <button class="submenu-toggle<%= childCurrent ? ' is-current' : '' %>" type="button" aria-expanded="false" aria-controls="submenu-<%= index %>"><span><%= item.label %></span><span class="submenu-icon" aria-hidden="true">▾</span></button>
+              <ul class="submenu" id="submenu-<%= index %>">
+                <% item.children.forEach((child) => { const isChildCurrent = child.route === page.route || (child.route !== '/' && page.route.startsWith(child.route)); %>
+                  <li><a href="<%= urlFor(child.route) %>"<% if (isChildCurrent) { %> aria-current="page"<% } %>><%= child.label %></a></li>
+                <% }) %>
+              </ul>
+            <% } else { %>
+              <a href="<%= urlFor(item.route) %>"<% if (current) { %> aria-current="page"<% } %>><%= item.label %></a>
+            <% } %>
+          </li>
         <% }) %>
       </ul>
       <a class="header-cta" href="<%= urlFor('/contact/') %>">Let's connect <span aria-hidden="true">↗</span></a>
