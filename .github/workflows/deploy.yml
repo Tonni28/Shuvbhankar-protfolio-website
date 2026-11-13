@@ -1,0 +1,37 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: Production
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "yarn"
+
+      - name: Install dependencies
+        run: yarn install
+
+      
+      # prebuild pulls the latest CMS export when SHOPMATE_ORG is set
+      # (repository variable); otherwise the committed .cms/export.json is used.
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh 
+          chmod 700 ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/hoshonto
+          chmod 600 ~/.ssh/hoshonto
+          ssh-keyscan -H ${{ vars.SSH_HOST }} >> ~/.ssh/known_hosts
+      - name: Deploy with rsync
+        run: |
+          bash sync.sh
